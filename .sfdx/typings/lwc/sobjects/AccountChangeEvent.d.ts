@@ -266,3 +266,15 @@ declare module "@salesforce/schema/AccountChangeEvent.SLAExpirationDate__c" {
   const SLAExpirationDate__c:any;
   export default SLAExpirationDate__c;
 }
+declare module "@salesforce/schema/AccountChangeEvent.JIRA_Project_Id__c" {
+  const JIRA_Project_Id__c:string;
+  export default JIRA_Project_Id__c;
+}
+declare module "@salesforce/schema/AccountChangeEvent.JIRA_Project_Key__c" {
+  const JIRA_Project_Key__c:string;
+  export default JIRA_Project_Key__c;
+}
+declare module "@salesforce/schema/AccountChangeEvent.Jira_Error__c" {
+  const Jira_Error__c:string;
+  export default Jira_Error__c;
+}

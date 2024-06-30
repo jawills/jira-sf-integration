@@ -77,6 +77,9 @@ global class Account {
     global String UpsellOpportunity__c;
     global String SLASerialNumber__c;
     global Date SLAExpirationDate__c;
+    global String JIRA_Project_Id__c;
+    global String JIRA_Project_Key__c;
+    global String Jira_Error__c;
     global List<Account> ChildAccounts;
     global List<AccountContactRole> AccountContactRoles;
     global List<AccountHistory> Histories;

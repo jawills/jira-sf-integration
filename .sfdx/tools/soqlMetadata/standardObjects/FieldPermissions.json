@@ -1499,6 +1499,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Account.Jira_Error__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Account.JIRA_Project_Id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Account.JIRA_Project_Key__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Account.NaicsCode"
         },
         {

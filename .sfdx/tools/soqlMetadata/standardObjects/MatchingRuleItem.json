@@ -498,6 +498,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Jira_Error"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "JIRA_Project_Id"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "JIRA_Project_Key"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Languages"
         },
         {

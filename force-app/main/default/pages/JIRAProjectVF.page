@@ -1,0 +1,2 @@
+<apex:page standardcontroller="Account" extensions="JiraProjectController" action="{!createProject}">
+</apex:page>

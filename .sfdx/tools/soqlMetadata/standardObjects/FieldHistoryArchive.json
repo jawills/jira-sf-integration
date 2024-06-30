@@ -3606,6 +3606,27 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Jira Error",
+          "validFor": null,
+          "value": "Account.Jira_Error__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "JIRA Project Id",
+          "validFor": null,
+          "value": "Account.JIRA_Project_Id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "JIRA Project Key",
+          "validFor": null,
+          "value": "Account.JIRA_Project_Key__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Job Record",
           "validFor": null,
           "value": "JobRecord"
