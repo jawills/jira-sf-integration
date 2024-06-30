@@ -1,0 +1,675 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Revenue Async Operation ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Async Operation Number",
+      "name": "AsyncOperationNumber",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Viewed Date",
+      "name": "LastViewedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Referenced Date",
+      "name": "LastReferencedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Status",
+      "name": "Status",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Submitted",
+          "validFor": null,
+          "value": "Submitted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "In Progress",
+          "validFor": null,
+          "value": "InProgress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Completed",
+          "validFor": null,
+          "value": "Completed"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Completed With Failures",
+          "validFor": null,
+          "value": "CompletedWithFailures"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Failure",
+          "validFor": null,
+          "value": "Failure"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Job Type",
+      "name": "JobType",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Initiate Amend Quantity",
+          "validFor": null,
+          "value": "PearAmendQtyAssets"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Initiate Cancellation",
+          "validFor": null,
+          "value": "PearCancelAssets"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Initiate Renewal",
+          "validFor": null,
+          "value": "PearRenewAssets"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Automatic Refunds",
+          "validFor": null,
+          "value": "AutomaticRefunds"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Automated Negative Invoice Line Conversion",
+          "validFor": null,
+          "value": "AutomatedNegativeInvoiceLineConversion"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Place Quote",
+          "validFor": null,
+          "value": "PlaceQuote"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PlaceOrder",
+          "validFor": null,
+          "value": "PlaceOrder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PlaceQuotePersistSync",
+          "validFor": null,
+          "value": "PlaceQuotePersistSync"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PlaceQuotePersistAndPriceSync",
+          "validFor": null,
+          "value": "PlaceQuotePersistAndPriceSync"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PlaceOrderPersistSync",
+          "validFor": null,
+          "value": "PlaceOrderPersistSync"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PlaceQuotePriceAsync",
+          "validFor": null,
+          "value": "PlaceQuotePriceAsync"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PlaceQuoteTaxAsync",
+          "validFor": null,
+          "value": "PlaceQuoteTaxAsync"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PlaceOrderTaxAsync",
+          "validFor": null,
+          "value": "PlaceOrderTaxAsync"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PlaceOrderPriceAsync",
+          "validFor": null,
+          "value": "PlaceOrderPriceAsync"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Price Rule Deployment",
+          "validFor": null,
+          "value": "PriceRuleDeployment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Create Material Lines",
+          "validFor": null,
+          "value": "TransactionLineBom"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PriceSheetDeployJob",
+          "validFor": null,
+          "value": "PriceSheetDeployJob"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ContextPersistence",
+          "validFor": null,
+          "value": "ContextPersistence"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CreateCPQContractsJob",
+          "validFor": null,
+          "value": "CreateCPQContractsJob"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "AssetizationAsyncJob",
+          "validFor": null,
+          "value": "AssetizationAsyncJob"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "QuoteToOrderJob",
+          "validFor": null,
+          "value": "QuoteToOrderJob"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "InvoiceDraftToPosted",
+          "validFor": null,
+          "value": "InvoiceDraftToPosted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "RuleLibraryDeployment",
+          "validFor": null,
+          "value": "RuleLibraryDeployment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "InvoiceDocgenJob",
+          "validFor": null,
+          "value": "InvoiceDocgenJob"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Submitted At",
+      "name": "SubmittedAt",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Started At",
+      "name": "StartedAt",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Finished At",
+      "name": "FinishedAt",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Expires At",
+      "name": "ExpiresAt",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Revenue Async Operation ID",
+      "name": "ParentOperationId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "RevenueAsyncOperation"
+      ],
+      "relationshipName": "ParentOperation",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reference Entity ID",
+      "name": "ReferenceEntityId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "CreditMemo",
+        "Order"
+      ],
+      "relationshipName": "ReferenceEntity",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Total Job Items",
+      "name": "TotalJobItems",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Successful Job Items",
+      "name": "SuccessfulJobItems",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Failed Job Items",
+      "name": "FailedJobItems",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Correlation Identifier",
+      "name": "CorrelationIdentifier",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Response",
+      "name": "Response",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    }
+  ],
+  "label": "Revenue Async Operation",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "AIInsightValue",
+      "deprecatedAndHidden": false,
+      "field": "SobjectLookupValueId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "AIRecordInsight",
+      "deprecatedAndHidden": false,
+      "field": "TargetId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowExecutionErrorEvent",
+      "deprecatedAndHidden": false,
+      "field": "ContextRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "RevenueAsyncOperation",
+      "deprecatedAndHidden": false,
+      "field": "ParentOperationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RevenueAsyncOperations",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "RevenueTransactionErrorLog",
+      "deprecatedAndHidden": false,
+      "field": "PrimaryRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "PrimaryRevenueTransactionErrorLogs",
+      "restrictedDelete": false
+    }
+  ],
+  "custom": false,
+  "name": "RevenueAsyncOperation",
+  "queryable": true
+}

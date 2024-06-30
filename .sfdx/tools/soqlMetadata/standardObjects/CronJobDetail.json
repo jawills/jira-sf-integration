@@ -1,0 +1,128 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Job ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Job Name",
+      "name": "Name",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Type",
+      "name": "JobType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Data Export",
+          "validFor": null,
+          "value": "1"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dashboard Refresh",
+          "validFor": null,
+          "value": "3"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reporting Snapshot",
+          "validFor": null,
+          "value": "4"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Scheduled Flow",
+          "validFor": null,
+          "value": "6"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Scheduled Apex",
+          "validFor": null,
+          "value": "7"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Report Run",
+          "validFor": null,
+          "value": "8"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Batch Job",
+          "validFor": null,
+          "value": "9"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reporting Notification",
+          "validFor": null,
+          "value": "A"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    }
+  ],
+  "label": "Cron Job",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "CronTrigger",
+      "deprecatedAndHidden": false,
+      "field": "CronJobDetailId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    }
+  ],
+  "custom": false,
+  "name": "CronJobDetail",
+  "queryable": true
+}

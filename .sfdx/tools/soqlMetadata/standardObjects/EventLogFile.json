@@ -1,0 +1,759 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Event Log File ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Event Type",
+      "name": "EventType",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "API",
+          "validFor": null,
+          "value": "API"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Api Total Usage",
+          "validFor": null,
+          "value": "ApiTotalUsage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Apex Callout",
+          "validFor": null,
+          "value": "ApexCallout"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Apex Execution",
+          "validFor": null,
+          "value": "ApexExecution"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Apex REST API",
+          "validFor": null,
+          "value": "ApexRestApi"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Apex SOAP",
+          "validFor": null,
+          "value": "ApexSoap"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Apex Trigger",
+          "validFor": null,
+          "value": "ApexTrigger"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Apex Unexpected Exception",
+          "validFor": null,
+          "value": "ApexUnexpectedException"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Asynchronous Report Run",
+          "validFor": null,
+          "value": "AsyncReportRun"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CORS Violation Record",
+          "validFor": null,
+          "value": "CorsViolation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Aura Request",
+          "validFor": null,
+          "value": "AuraRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Concurrent Long Running Apex Limit",
+          "validFor": null,
+          "value": "ConcurrentLongRunningApexLimit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Continuation Callout",
+          "validFor": null,
+          "value": "ContinuationCallout"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "External Cross-Org Callout",
+          "validFor": null,
+          "value": "ExternalCrossOrgCallout"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "External Custom Apex Callout",
+          "validFor": null,
+          "value": "ExternalCustomApexCallout"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "External Data Source Callout",
+          "validFor": null,
+          "value": "ExternalDataSourceCallout"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "External OData Callout",
+          "validFor": null,
+          "value": "ExternalODataCallout"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bulk API",
+          "validFor": null,
+          "value": "BulkApi"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bulk API 2.0",
+          "validFor": null,
+          "value": "BulkApi2"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Set Operation",
+          "validFor": null,
+          "value": "ChangeSetOperation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Console",
+          "validFor": null,
+          "value": "Console"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Content Distribution",
+          "validFor": null,
+          "value": "ContentDistribution"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Content Document Link",
+          "validFor": null,
+          "value": "ContentDocumentLink"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Content Transfer",
+          "validFor": null,
+          "value": "ContentTransfer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dashboard",
+          "validFor": null,
+          "value": "Dashboard"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Document Attachment Downloads",
+          "validFor": null,
+          "value": "DocumentAttachmentDownloads"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Flow Execution",
+          "validFor": null,
+          "value": "FlowExecution"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Group Membership",
+          "validFor": null,
+          "value": "GroupMembership"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hostname Redirects",
+          "validFor": null,
+          "value": "HostnameRedirects"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Insecure External Assets",
+          "validFor": null,
+          "value": "InsecureExternalAssets"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Insufficient Access",
+          "validFor": null,
+          "value": "InsufficientAccess"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Knowledge Article View",
+          "validFor": null,
+          "value": "KnowledgeArticleView"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lightning Error",
+          "validFor": null,
+          "value": "LightningError"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lightning Interaction",
+          "validFor": null,
+          "value": "LightningInteraction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lightning Logger",
+          "validFor": null,
+          "value": "LightningLogger"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lightning Page View",
+          "validFor": null,
+          "value": "LightningPageView"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lightning Performance",
+          "validFor": null,
+          "value": "LightningPerformance"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Login",
+          "validFor": null,
+          "value": "Login"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Login As",
+          "validFor": null,
+          "value": "LoginAs"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Logout",
+          "validFor": null,
+          "value": "Logout"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Metadata API Operation",
+          "validFor": null,
+          "value": "MetadataApiOperation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Multiblock Report",
+          "validFor": null,
+          "value": "MultiBlockReport"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Named Credential",
+          "validFor": null,
+          "value": "NamedCredential"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "One Commerce Usage",
+          "validFor": null,
+          "value": "OneCommerceUsage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Package Install",
+          "validFor": null,
+          "value": "PackageInstall"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Queued Execution",
+          "validFor": null,
+          "value": "QueuedExecution"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Report",
+          "validFor": null,
+          "value": "Report"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Report Export",
+          "validFor": null,
+          "value": "ReportExport"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Rest API",
+          "validFor": null,
+          "value": "RestApi"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sandbox",
+          "validFor": null,
+          "value": "Sandbox"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Search",
+          "validFor": null,
+          "value": "Search"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Search Click",
+          "validFor": null,
+          "value": "SearchClick"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sites",
+          "validFor": null,
+          "value": "Sites"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform Encryption",
+          "validFor": null,
+          "value": "PlatformEncryption"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Time-Based Workflow",
+          "validFor": null,
+          "value": "TimeBasedWorkflow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Transaction Security",
+          "validFor": null,
+          "value": "TransactionSecurity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "UI Tracking",
+          "validFor": null,
+          "value": "UITracking"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "URI",
+          "validFor": null,
+          "value": "URI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Visualforce Request",
+          "validFor": null,
+          "value": "VisualforceRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Wave Change",
+          "validFor": null,
+          "value": "WaveChange"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Wave Download",
+          "validFor": null,
+          "value": "WaveDownload"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Wave Interaction",
+          "validFor": null,
+          "value": "WaveInteraction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Wave Performance",
+          "validFor": null,
+          "value": "WavePerformance"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Log Date",
+      "name": "LogDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Log File Length",
+      "name": "LogFileLength",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Log File Content Type",
+      "name": "LogFileContentType",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "API Version",
+      "name": "ApiVersion",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Sequence",
+      "name": "Sequence",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Interval",
+      "name": "Interval",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hourly",
+          "validFor": null,
+          "value": "Hourly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Daily",
+          "validFor": null,
+          "value": "Daily"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Log File Field Names",
+      "name": "LogFileFieldNames",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Log File Field Types",
+      "name": "LogFileFieldTypes",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Log File",
+      "name": "LogFile",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "base64"
+    }
+  ],
+  "label": "Event Log File",
+  "childRelationships": [],
+  "custom": false,
+  "name": "EventLogFile",
+  "queryable": true
+}

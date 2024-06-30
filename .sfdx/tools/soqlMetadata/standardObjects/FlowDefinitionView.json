@@ -1,0 +1,1050 @@
+{
+  "fields": [
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Flow Definition View ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Durable ID",
+      "name": "DurableId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Flow API Name",
+      "name": "ApiName",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Flow Label",
+      "name": "Label",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Flow Description",
+      "name": "Description",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Process Type",
+      "name": "ProcessType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Autolaunched Flow",
+          "validFor": null,
+          "value": "AutoLaunchedFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Screen Flow",
+          "validFor": null,
+          "value": "Flow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record Change Process",
+          "validFor": null,
+          "value": "Workflow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform Event Process",
+          "validFor": null,
+          "value": "CustomEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Invocable Process",
+          "validFor": null,
+          "value": "InvocableProcess"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Login Flow",
+          "validFor": null,
+          "value": "LoginFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Action Plan",
+          "validFor": null,
+          "value": "ActionPlan"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Journey Builder Integration",
+          "validFor": null,
+          "value": "JourneyBuilderIntegration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "User Provisioning Flow",
+          "validFor": null,
+          "value": "UserProvisioningFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Survey",
+          "validFor": null,
+          "value": "Survey"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Survey Enrich Flow",
+          "validFor": null,
+          "value": "SurveyEnrich"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Salesforce Scheduler Flow",
+          "validFor": null,
+          "value": "Appointments"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mortgage Flow",
+          "validFor": null,
+          "value": "FSCLending"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Digital Form Flow",
+          "validFor": null,
+          "value": "DigitalForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Field Service Mobile Flow",
+          "validFor": null,
+          "value": "FieldServiceMobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Orchestration Flow",
+          "validFor": null,
+          "value": "OrchestrationFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Embedded Appointment Management Flow",
+          "validFor": null,
+          "value": "FieldServiceWeb"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Transaction Security Flow",
+          "validFor": null,
+          "value": "TransactionSecurityFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Contact Request Flow",
+          "validFor": null,
+          "value": "ContactRequestFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cadence Flow",
+          "validFor": null,
+          "value": "ActionCadenceFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed Content Flow",
+          "validFor": null,
+          "value": "ManagedContentFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Checkout Flow",
+          "validFor": null,
+          "value": "CheckoutFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cart Async Flow",
+          "validFor": null,
+          "value": "CartAsyncFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Data Capture Flow",
+          "validFor": null,
+          "value": "DataCaptureFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Customer Lifecycle Flow",
+          "validFor": null,
+          "value": "CustomerLifecycle"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Audience-Driven Flow",
+          "validFor": null,
+          "value": "Journey"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recommendation Strategy",
+          "validFor": null,
+          "value": "RecommendationStrategy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Flow Orchestration",
+          "validFor": null,
+          "value": "Orchestrator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Omni-Channel Flow",
+          "validFor": null,
+          "value": "RoutingFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Employee Service Catalog Item Flow",
+          "validFor": null,
+          "value": "ServiceCatalogItemFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Evaluation Flow",
+          "validFor": null,
+          "value": "EvaluationFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Loyalty Management Flow",
+          "validFor": null,
+          "value": "LoyaltyManagementFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Flow Orchestration for CMS",
+          "validFor": null,
+          "value": "ManagedContentAuthoringWorkflow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cadence Autolaunched Flow",
+          "validFor": null,
+          "value": "ActionCadenceAutolaunchedFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cadence Step Flow",
+          "validFor": null,
+          "value": "ActionCadenceStepFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Indicator Result Flow",
+          "validFor": null,
+          "value": "IndicatorResultFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Individual-Object Linking Flow",
+          "validFor": null,
+          "value": "IndividualObjectLinkingFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Prompt Flow",
+          "validFor": null,
+          "value": "PromptFlow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Flow Orchestration for Advanced Approval",
+          "validFor": null,
+          "value": "AdvancedApproval"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Trigger",
+      "name": "TriggerType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "None",
+          "validFor": null,
+          "value": "None"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Schedule",
+          "validFor": null,
+          "value": "Scheduled"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record—Run Before Save",
+          "validFor": null,
+          "value": "RecordBeforeSave"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record—Run Before Delete",
+          "validFor": null,
+          "value": "RecordBeforeDelete"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record—Run After Save",
+          "validFor": null,
+          "value": "RecordAfterSave"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform Event",
+          "validFor": null,
+          "value": "PlatformEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Data Cloud-Driven Flow",
+          "validFor": null,
+          "value": "EventDrivenJourney"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Segment-Triggered Flow",
+          "validFor": null,
+          "value": "Segment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Data Cloud-Triggered Flow",
+          "validFor": null,
+          "value": "DataCloudDataChange"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Form-Triggered Flow",
+          "validFor": null,
+          "value": "FormSubmissionEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Capability",
+          "validFor": null,
+          "value": "Capability"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Flow Namespace",
+      "name": "NamespacePrefix",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Active Flow Version API Name or ID",
+      "name": "ActiveVersionId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Latest Flow Version API Name or ID",
+      "name": "LatestVersionId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By",
+      "name": "LastModifiedBy",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Active",
+      "name": "IsActive",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Is Using an Older Version",
+      "name": "IsOutOfDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Template",
+      "name": "IsTemplate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Overridable",
+      "name": "IsOverridable",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Flow Definition View ID",
+      "name": "OverriddenById",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "FlowDefinitionView"
+      ],
+      "relationshipName": "OverriddenBy",
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Flow Definition View ID",
+      "name": "SourceTemplateId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "FlowDefinitionView"
+      ],
+      "relationshipName": "SourceTemplate",
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Flow Definition View ID",
+      "name": "OverriddenFlowId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "FlowDefinitionView"
+      ],
+      "relationshipName": "OverriddenFlow",
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Is Swing Flow",
+      "name": "IsSwingFlow",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Built with",
+      "name": "Builder",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Package State",
+      "name": "ManageableState",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Released",
+          "validFor": null,
+          "value": "released"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Proposed-Deleted",
+          "validFor": null,
+          "value": "deleted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Proposed-Deprecated",
+          "validFor": null,
+          "value": "deprecated"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Installed",
+          "validFor": null,
+          "value": "installed"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Beta",
+          "validFor": null,
+          "value": "beta"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Unmanaged",
+          "validFor": null,
+          "value": "unmanaged"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SecondGen-Installed-Editable",
+          "validFor": null,
+          "value": "installedEditable"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SecondGen-Installed-Deprecated",
+          "validFor": null,
+          "value": "deprecatedEditable"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Package Name",
+      "name": "InstalledPackageName",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Triggering Object or Platform Event Label",
+      "name": "TriggerObjectOrEventLabel",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Entity Definition ID",
+      "name": "TriggerObjectOrEventId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "EntityDefinition"
+      ],
+      "relationshipName": "TriggerObjectOrEvent",
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Record Trigger Type",
+      "name": "RecordTriggerType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Update"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Create"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CreateAndUpdate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Delete"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "None"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Has Asynchronous After Commit Path",
+      "name": "HasAsyncAfterCommitPath",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Version Number",
+      "name": "VersionNumber",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Trigger Order",
+      "name": "TriggerOrder",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Environments",
+      "name": "Environments",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "multipicklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Api Version",
+      "name": "ApiVersion",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    }
+  ],
+  "label": "Flow Definition",
+  "childRelationships": [
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowDefinitionView",
+      "deprecatedAndHidden": false,
+      "field": "OverriddenById",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowDefinitionView",
+      "deprecatedAndHidden": false,
+      "field": "OverriddenFlowId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowDefinitionView",
+      "deprecatedAndHidden": false,
+      "field": "SourceTemplateId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowTestResult",
+      "deprecatedAndHidden": false,
+      "field": "FlowDefinitionViewId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "FlowTestResults",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowTestView",
+      "deprecatedAndHidden": false,
+      "field": "FlowDefinitionViewId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "FlowTestViews",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowVersionView",
+      "deprecatedAndHidden": false,
+      "field": "FlowDefinitionViewId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Versions",
+      "restrictedDelete": false
+    }
+  ],
+  "custom": false,
+  "name": "FlowDefinitionView",
+  "queryable": true
+}

@@ -1,0 +1,160 @@
+{
+  "fields": [
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Flex Queue Item Id",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Flex Queue Item Id",
+      "name": "FlexQueueItemId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Job Type",
+      "name": "JobType",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Future",
+          "validFor": null,
+          "value": "Future"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sharing Recalculation",
+          "validFor": null,
+          "value": "SharingRecalculation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Scheduled Apex",
+          "validFor": null,
+          "value": "ScheduledApex"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Batch Apex",
+          "validFor": null,
+          "value": "BatchApex"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Batch Apex Worker",
+          "validFor": null,
+          "value": "BatchApexWorker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Test Request",
+          "validFor": null,
+          "value": "TestRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Test Worker",
+          "validFor": null,
+          "value": "TestWorker"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Apex Token",
+          "validFor": null,
+          "value": "ApexToken"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Queueable",
+          "validFor": null,
+          "value": "Queueable"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Apex Job ID",
+      "name": "AsyncApexJobId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "AsyncApexJob"
+      ],
+      "relationshipName": "AsyncApexJob",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Job Position",
+      "name": "JobPosition",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    }
+  ],
+  "label": "Flex Queue Item",
+  "childRelationships": [],
+  "custom": false,
+  "name": "FlexQueueItem",
+  "queryable": true
+}

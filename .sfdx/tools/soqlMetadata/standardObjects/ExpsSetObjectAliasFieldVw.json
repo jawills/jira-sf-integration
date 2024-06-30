@@ -1,0 +1,442 @@
+{
+  "fields": [
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Expression Set Object Alias Field View Id",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "External Id",
+      "name": "DurableId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Object Alias",
+      "name": "ObjectAlias",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Field Alias",
+      "name": "FieldAlias",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Object API Name",
+      "name": "ObjectApiName",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Source Field Name",
+      "name": "SourceFieldName",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": "Bre",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Usage Type",
+      "name": "UsageType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "Default",
+          "validFor": null,
+          "value": "Bre"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record Alert",
+          "validFor": null,
+          "value": "RecordAlert"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": "Text",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Source Field Data Type",
+      "name": "SourceFieldDataType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "Text",
+          "validFor": null,
+          "value": "Text"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number",
+          "validFor": null,
+          "value": "Numeric"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Date",
+          "validFor": null,
+          "value": "Date"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Date/Time",
+          "validFor": null,
+          "value": "DateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sobject",
+          "validFor": null,
+          "value": "Sobject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Boolean",
+          "validFor": null,
+          "value": "Boolean"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "percent",
+          "validFor": null,
+          "value": "Percent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Currency",
+          "validFor": null,
+          "value": "Currency"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Action Output",
+          "validFor": null,
+          "value": "ActionOutput"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sub Expression",
+          "validFor": null,
+          "value": "SubExpression"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Decision Matrix",
+          "validFor": null,
+          "value": "DecisionMatrix"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Decision Table",
+          "validFor": null,
+          "value": "DecisionTable"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Context",
+          "validFor": null,
+          "value": "Context"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Context Node",
+          "validFor": null,
+          "value": "ContextNode"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Picklist",
+          "validFor": null,
+          "value": "Picklist"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Source Field Decimal Scale",
+      "name": "SourceFieldDecimalScale",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Expression Set Definition Version Variable Field",
+      "name": "ExpsSetDefVerVarField",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Namespace Prefix",
+      "name": "NamespacePrefix",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Installed Package Name",
+      "name": "InstalledPackageName",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By",
+      "name": "LastModifiedBy",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Manageable State",
+      "name": "ManageableState",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Released",
+          "validFor": null,
+          "value": "released"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Proposed-Deleted",
+          "validFor": null,
+          "value": "deleted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Proposed-Deprecated",
+          "validFor": null,
+          "value": "deprecated"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Installed",
+          "validFor": null,
+          "value": "installed"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Beta",
+          "validFor": null,
+          "value": "beta"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Unmanaged",
+          "validFor": null,
+          "value": "unmanaged"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SecondGen-Installed-Editable",
+          "validFor": null,
+          "value": "installedEditable"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SecondGen-Installed-Deprecated",
+          "validFor": null,
+          "value": "deprecatedEditable"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    }
+  ],
+  "label": "Expression Set Object Alias Field View",
+  "childRelationships": [],
+  "custom": false,
+  "name": "ExpsSetObjectAliasFieldVw",
+  "queryable": true
+}

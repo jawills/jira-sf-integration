@@ -1,0 +1,457 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Event Log Entry ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Usage Type",
+      "name": "InitiatedBy",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "IdP-Initiated SAML",
+          "validFor": null,
+          "value": "IdP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SP-Initiated SAML",
+          "validFor": null,
+          "value": "SP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "OAuth Authorization",
+          "validFor": null,
+          "value": "OauthAuthorize"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "OAuth Token Exchange",
+          "validFor": null,
+          "value": "OauthTokenExchange"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Unused"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Timestamp",
+      "name": "Timestamp",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Status",
+      "name": "ErrorCode",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Success",
+          "validFor": null,
+          "value": "Success"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Org has not configured My Domains yet",
+          "validFor": null,
+          "value": "NoSubdomain"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Invalid Identity Provider Endpoint URL",
+          "validFor": null,
+          "value": "InvalidIdpEndpoint"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Unable to parse AuthnRequest from service provider",
+          "validFor": null,
+          "value": "InvalidAuthnRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Misconfigured or invalid service provider",
+          "validFor": null,
+          "value": "InvalidSp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: User does not have a Federation Identifier selected",
+          "validFor": null,
+          "value": "NoUserFedId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: User does not have access to this service provider",
+          "validFor": null,
+          "value": "NoAccess"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: IdP certificate is invalid or does not exist",
+          "validFor": null,
+          "value": "InvalidSettings"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: No Spoke ID found",
+          "validFor": null,
+          "value": "NoSpokeId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Invalid spoke SP settings",
+          "validFor": null,
+          "value": "InvalidSpokeSp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: User does not have a value for the subject custom attribute",
+          "validFor": null,
+          "value": "NoCustomAttrValue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Custom field not found",
+          "validFor": null,
+          "value": "NoCustomField"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "User logged out due to forced authentication request",
+          "validFor": null,
+          "value": "ForceAuthNLogout"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Invalid Issuer",
+          "validFor": null,
+          "value": "InvalidIssuer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Invalid Signature",
+          "validFor": null,
+          "value": "InvalidSignature"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Unable to resolve request into a Service Provider",
+          "validFor": null,
+          "value": "UnableToResolve"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Invalid session level",
+          "validFor": null,
+          "value": "InvalidSessionLevel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Internal Error",
+          "validFor": null,
+          "value": "InternalError"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "OAuth Error",
+          "validFor": null,
+          "value": "OauthError"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: App access denied",
+          "validFor": null,
+          "value": "AppAccessDenied"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: App blocked",
+          "validFor": null,
+          "value": "AppBlocked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Invalid grant",
+          "validFor": null,
+          "value": "ClientUnapproved"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Expired authorization code",
+          "validFor": null,
+          "value": "CodeExpired"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Invalid client credentials",
+          "validFor": null,
+          "value": "InvalidClientCredentials"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Invalid authorization code",
+          "validFor": null,
+          "value": "InvalidCode"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Invalid scope(s)",
+          "validFor": null,
+          "value": "InvalidScope"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Invalid user credentials",
+          "validFor": null,
+          "value": "InvalidUserCredentials"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error: Invalid device ID",
+          "validFor": null,
+          "value": "InvalidDeviceId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Unknown Error",
+          "validFor": null,
+          "value": "UnknownError"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Entity ID",
+      "name": "SamlEntityUrl",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User ID",
+      "name": "UserId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Auth Session ID",
+      "name": "AuthSessionId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "AuthSession"
+      ],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "SSO Type",
+      "name": "SsoType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Saml"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Oidc"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Connected App ID",
+      "name": "AppId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "ConnectedApplication"
+      ],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Identity Used",
+      "name": "IdentityUsed",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Has Logout URL",
+      "name": "OptionsHasLogoutUrl",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "boolean"
+    }
+  ],
+  "label": "Identity Provider Event Log",
+  "childRelationships": [],
+  "custom": false,
+  "name": "IdpEventLog",
+  "queryable": true
+}

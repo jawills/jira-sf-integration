@@ -1,0 +1,1486 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Omni Process Element ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "API Name",
+      "name": "Name",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Viewed Date",
+      "name": "LastViewedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Referenced Date",
+      "name": "LastReferencedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Omni Process ID",
+      "name": "OmniProcessId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "OmniProcess"
+      ],
+      "relationshipName": "OmniProcess",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Active",
+      "name": "IsActive",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Description",
+      "name": "Description",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Level",
+      "name": "Level",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Omni Process Version Number",
+      "name": "OmniProcessVersionNumber",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Sequence Number",
+      "name": "SequenceNumber",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Omni Process Element ID",
+      "name": "ParentElementId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "OmniProcessElement"
+      ],
+      "relationshipName": "ParentElement",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Parent Element Name",
+      "name": "ParentElementName",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Parent Element Type",
+      "name": "ParentElementType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Aggregate",
+          "validFor": null,
+          "value": "Aggregate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assert Action",
+          "validFor": null,
+          "value": "Assert Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Batch Action",
+          "validFor": null,
+          "value": "Batch Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Block",
+          "validFor": null,
+          "value": "Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cache Block",
+          "validFor": null,
+          "value": "Cache Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Checkbox",
+          "validFor": null,
+          "value": "Checkbox"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Conditional Block",
+          "validFor": null,
+          "value": "Conditional Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Custom Lightning Web Component",
+          "validFor": null,
+          "value": "Custom Lightning Web Component"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chatter Action",
+          "validFor": null,
+          "value": "Chatter Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Loop Block",
+          "validFor": null,
+          "value": "Loop Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Try Catch Block",
+          "validFor": null,
+          "value": "Try Catch Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Currency",
+          "validFor": null,
+          "value": "Currency"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DataRaptor Extract Action",
+          "validFor": null,
+          "value": "DataRaptor Extract Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DataRaptor Turbo Action",
+          "validFor": null,
+          "value": "DataRaptor Turbo Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DataRaptor Post Action",
+          "validFor": null,
+          "value": "DataRaptor Post Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DataRaptor Transform Action",
+          "validFor": null,
+          "value": "DataRaptor Transform Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Date",
+          "validFor": null,
+          "value": "Date"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Date/Time (Local)",
+          "validFor": null,
+          "value": "Date/Time (Local)"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Delete Action",
+          "validFor": null,
+          "value": "Delete Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Disclosure",
+          "validFor": null,
+          "value": "Disclosure"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DocuSign Envelope Action",
+          "validFor": null,
+          "value": "DocuSign Envelope Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DocuSign Signature Action",
+          "validFor": null,
+          "value": "DocuSign Signature Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Edit Block",
+          "validFor": null,
+          "value": "Edit Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email",
+          "validFor": null,
+          "value": "Email"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Action",
+          "validFor": null,
+          "value": "Email Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "File",
+          "validFor": null,
+          "value": "File"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Formula",
+          "validFor": null,
+          "value": "Formula"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Image",
+          "validFor": null,
+          "value": "Image"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Integration Procedure Action",
+          "validFor": null,
+          "value": "Integration Procedure Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Line Break",
+          "validFor": null,
+          "value": "Line Break"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "List Merge Action",
+          "validFor": null,
+          "value": "List Merge Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lookup",
+          "validFor": null,
+          "value": "Lookup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Navigate Action",
+          "validFor": null,
+          "value": "Navigate Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Multi-select",
+          "validFor": null,
+          "value": "Multi-select"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number",
+          "validFor": null,
+          "value": "Number"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "OmniScript",
+          "validFor": null,
+          "value": "OmniScript"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Password",
+          "validFor": null,
+          "value": "Password"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PDF Action",
+          "validFor": null,
+          "value": "PDF Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Radio",
+          "validFor": null,
+          "value": "Radio"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Radio Group",
+          "validFor": null,
+          "value": "Radio Group"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Range",
+          "validFor": null,
+          "value": "Range"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Remote Action",
+          "validFor": null,
+          "value": "Remote Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Response Action",
+          "validFor": null,
+          "value": "Response Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Rest Action",
+          "validFor": null,
+          "value": "Rest Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Select",
+          "validFor": null,
+          "value": "Select"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Set Errors",
+          "validFor": null,
+          "value": "Set Errors"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Set Values",
+          "validFor": null,
+          "value": "Set Values"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Step",
+          "validFor": null,
+          "value": "Step"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Telephone",
+          "validFor": null,
+          "value": "Telephone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Text",
+          "validFor": null,
+          "value": "Text"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Text Area",
+          "validFor": null,
+          "value": "Text Area"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Text Block",
+          "validFor": null,
+          "value": "Text Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Time",
+          "validFor": null,
+          "value": "Time"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Type Ahead Block",
+          "validFor": null,
+          "value": "Type Ahead Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "URL",
+          "validFor": null,
+          "value": "URL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Validation",
+          "validFor": null,
+          "value": "Validation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Action Block",
+          "validFor": null,
+          "value": "Action Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Calculation Action",
+          "validFor": null,
+          "value": "Calculation Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Matrix Action",
+          "validFor": null,
+          "value": "Matrix Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Done Action",
+          "validFor": null,
+          "value": "Done Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Filter",
+          "validFor": null,
+          "value": "Filter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Filter Block",
+          "validFor": null,
+          "value": "Filter Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Geolocation",
+          "validFor": null,
+          "value": "Geolocation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Headline",
+          "validFor": null,
+          "value": "Headline"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Input Block",
+          "validFor": null,
+          "value": "Input Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intelligence Action",
+          "validFor": null,
+          "value": "Intelligence Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "OmniForm",
+          "validFor": null,
+          "value": "OmniForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Post to Object Action",
+          "validFor": null,
+          "value": "Post to Object Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Review Action",
+          "validFor": null,
+          "value": "Review Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Selectable Items",
+          "validFor": null,
+          "value": "Selectable Items"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Signature",
+          "validFor": null,
+          "value": "Signature"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Submit",
+          "validFor": null,
+          "value": "Submit"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Property Set Configuration",
+      "name": "PropertySetConfig",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "OmniScript Embeddable",
+      "name": "IsOmniScriptEmbeddable",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Please do not manually modify this field.",
+      "label": "Embedded OmniScript Key",
+      "name": "EmbeddedOmniScriptKey",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Type",
+      "name": "Type",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Aggregate",
+          "validFor": null,
+          "value": "Aggregate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assert Action",
+          "validFor": null,
+          "value": "Assert Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Batch Action",
+          "validFor": null,
+          "value": "Batch Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Block",
+          "validFor": null,
+          "value": "Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cache Block",
+          "validFor": null,
+          "value": "Cache Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Checkbox",
+          "validFor": null,
+          "value": "Checkbox"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Conditional Block",
+          "validFor": null,
+          "value": "Conditional Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Custom Lightning Web Component",
+          "validFor": null,
+          "value": "Custom Lightning Web Component"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chatter Action",
+          "validFor": null,
+          "value": "Chatter Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Loop Block",
+          "validFor": null,
+          "value": "Loop Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Try Catch Block",
+          "validFor": null,
+          "value": "Try Catch Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Currency",
+          "validFor": null,
+          "value": "Currency"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DataRaptor Extract Action",
+          "validFor": null,
+          "value": "DataRaptor Extract Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DataRaptor Turbo Action",
+          "validFor": null,
+          "value": "DataRaptor Turbo Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DataRaptor Post Action",
+          "validFor": null,
+          "value": "DataRaptor Post Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DataRaptor Transform Action",
+          "validFor": null,
+          "value": "DataRaptor Transform Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Date",
+          "validFor": null,
+          "value": "Date"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Date/Time (Local)",
+          "validFor": null,
+          "value": "Date/Time (Local)"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Delete Action",
+          "validFor": null,
+          "value": "Delete Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Disclosure",
+          "validFor": null,
+          "value": "Disclosure"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DocuSign Envelope Action",
+          "validFor": null,
+          "value": "DocuSign Envelope Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DocuSign Signature Action",
+          "validFor": null,
+          "value": "DocuSign Signature Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Edit Block",
+          "validFor": null,
+          "value": "Edit Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email",
+          "validFor": null,
+          "value": "Email"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Action",
+          "validFor": null,
+          "value": "Email Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "File",
+          "validFor": null,
+          "value": "File"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Formula",
+          "validFor": null,
+          "value": "Formula"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Image",
+          "validFor": null,
+          "value": "Image"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Integration Procedure Action",
+          "validFor": null,
+          "value": "Integration Procedure Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Line Break",
+          "validFor": null,
+          "value": "Line Break"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "List Merge Action",
+          "validFor": null,
+          "value": "List Merge Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lookup",
+          "validFor": null,
+          "value": "Lookup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Navigate Action",
+          "validFor": null,
+          "value": "Navigate Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Multi-select",
+          "validFor": null,
+          "value": "Multi-select"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number",
+          "validFor": null,
+          "value": "Number"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "OmniScript",
+          "validFor": null,
+          "value": "OmniScript"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Password",
+          "validFor": null,
+          "value": "Password"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PDF Action",
+          "validFor": null,
+          "value": "PDF Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Radio",
+          "validFor": null,
+          "value": "Radio"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Radio Group",
+          "validFor": null,
+          "value": "Radio Group"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Range",
+          "validFor": null,
+          "value": "Range"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Remote Action",
+          "validFor": null,
+          "value": "Remote Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Response Action",
+          "validFor": null,
+          "value": "Response Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Rest Action",
+          "validFor": null,
+          "value": "Rest Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Select",
+          "validFor": null,
+          "value": "Select"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Set Errors",
+          "validFor": null,
+          "value": "Set Errors"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Set Values",
+          "validFor": null,
+          "value": "Set Values"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Step",
+          "validFor": null,
+          "value": "Step"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Telephone",
+          "validFor": null,
+          "value": "Telephone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Text",
+          "validFor": null,
+          "value": "Text"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Text Area",
+          "validFor": null,
+          "value": "Text Area"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Text Block",
+          "validFor": null,
+          "value": "Text Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Time",
+          "validFor": null,
+          "value": "Time"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Type Ahead Block",
+          "validFor": null,
+          "value": "Type Ahead Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "URL",
+          "validFor": null,
+          "value": "URL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Validation",
+          "validFor": null,
+          "value": "Validation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Action Block",
+          "validFor": null,
+          "value": "Action Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Calculation Action",
+          "validFor": null,
+          "value": "Calculation Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Matrix Action",
+          "validFor": null,
+          "value": "Matrix Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Done Action",
+          "validFor": null,
+          "value": "Done Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Filter",
+          "validFor": null,
+          "value": "Filter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Filter Block",
+          "validFor": null,
+          "value": "Filter Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Geolocation",
+          "validFor": null,
+          "value": "Geolocation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Headline",
+          "validFor": null,
+          "value": "Headline"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Input Block",
+          "validFor": null,
+          "value": "Input Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Intelligence Action",
+          "validFor": null,
+          "value": "Intelligence Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "OmniForm",
+          "validFor": null,
+          "value": "OmniForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Post to Object Action",
+          "validFor": null,
+          "value": "Post to Object Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Review Action",
+          "validFor": null,
+          "value": "Review Action"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Selectable Items",
+          "validFor": null,
+          "value": "Selectable Items"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Signature",
+          "validFor": null,
+          "value": "Signature"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Submit",
+          "validFor": null,
+          "value": "Submit"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Designer Customization Type",
+      "name": "DesignerCustomizationType",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    }
+  ],
+  "label": "Omni Process Element",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "AIInsightValue",
+      "deprecatedAndHidden": false,
+      "field": "SobjectLookupValueId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "AIRecordInsight",
+      "deprecatedAndHidden": false,
+      "field": "TargetId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowExecutionErrorEvent",
+      "deprecatedAndHidden": false,
+      "field": "ContextRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "OmniProcessElement",
+      "deprecatedAndHidden": false,
+      "field": "ParentElementId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ChildElements",
+      "restrictedDelete": false
+    }
+  ],
+  "custom": false,
+  "name": "OmniProcessElement",
+  "queryable": true
+}

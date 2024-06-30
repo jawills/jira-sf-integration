@@ -1,0 +1,468 @@
+{
+  "fields": [
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Replay ID",
+      "name": "ReplayId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Event UUID",
+      "name": "EventUuid",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Event ID",
+      "name": "EventIdentifier",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "User ID",
+      "name": "UserId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "User",
+      "sortable": false,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Username",
+      "name": "Username",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Event Date",
+      "name": "EventDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Session Key",
+      "name": "SessionKey",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Login Key",
+      "name": "LoginKey",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Source IP Address",
+      "name": "SourceIp",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Transaction Security Policy ID",
+      "name": "PolicyId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "TransactionSecurityPolicy"
+      ],
+      "relationshipName": "Policy",
+      "sortable": false,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Policy Outcome",
+      "name": "PolicyOutcome",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Block",
+          "validFor": null,
+          "value": "Block"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "FreezeUser",
+          "validFor": null,
+          "value": "FreezeUser"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "EndSession",
+          "validFor": null,
+          "value": "EndSession"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Notified",
+          "validFor": null,
+          "value": "Notified"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NoAction",
+          "validFor": null,
+          "value": "NoAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TwoFAInitiated",
+          "validFor": null,
+          "value": "TwoFAInitiated"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TwoFASucceeded",
+          "validFor": null,
+          "value": "TwoFASucceeded"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TwoFADenied",
+          "validFor": null,
+          "value": "TwoFADenied"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Error",
+          "validFor": null,
+          "value": "Error"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TwoFAInProgress",
+          "validFor": null,
+          "value": "TwoFAInProgress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TwoFARecoverableError",
+          "validFor": null,
+          "value": "TwoFARecoverableError"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TwoFAFailedGeneralError",
+          "validFor": null,
+          "value": "TwoFAFailedGeneralError"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TwoFAFailedInvalidCode",
+          "validFor": null,
+          "value": "TwoFAFailedInvalidCode"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TwoFAFailedTooManyAttempts",
+          "validFor": null,
+          "value": "TwoFAFailedTooManyAttempts"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TwoFAAutomatedSuccess",
+          "validFor": null,
+          "value": "TwoFAAutomatedSuccess"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TwoFAReportedDenied",
+          "validFor": null,
+          "value": "TwoFAReportedDenied"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TwoFANoAction",
+          "validFor": null,
+          "value": "TwoFANoAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "FailedPasswordLockout",
+          "validFor": null,
+          "value": "FailedPasswordLockout"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "FailedInvalidPassword",
+          "validFor": null,
+          "value": "FailedInvalidPassword"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ExemptNoAction",
+          "validFor": null,
+          "value": "ExemptNoAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "MeteringNoAction",
+          "validFor": null,
+          "value": "MeteringNoAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "MeteringBlock",
+          "validFor": null,
+          "value": "MeteringBlock"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Evaluation Time",
+      "name": "EvaluationTime",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "double"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Report ID",
+      "name": "Report",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Event Data",
+      "name": "SecurityEventData",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Summary",
+      "name": "Summary",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Score",
+      "name": "Score",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "double"
+    }
+  ],
+  "label": "Report Anomaly Event",
+  "childRelationships": [
+    {
+      "cascadeDelete": false,
+      "childSObject": "AsyncOperationEvent",
+      "deprecatedAndHidden": false,
+      "field": "SourceEvent",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    }
+  ],
+  "custom": false,
+  "name": "ReportAnomalyEvent",
+  "queryable": false
+}

@@ -1,0 +1,470 @@
+{
+  "fields": [
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Batch Calculation Job Definition View ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Durable ID",
+      "name": "DurableId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "API Name",
+      "name": "Name",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": " Job Name",
+      "name": "MasterLabel",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Description",
+      "name": "Description",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Namespace",
+      "name": "NamespacePrefix",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Package Name",
+      "name": "InstalledPackageName",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Active",
+      "name": "IsActive",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Template",
+      "name": "IsTemplate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By",
+      "name": "LastModifiedBy",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Package State",
+      "name": "ManageableState",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Released",
+          "validFor": null,
+          "value": "released"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Proposed-Deleted",
+          "validFor": null,
+          "value": "deleted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Proposed-Deprecated",
+          "validFor": null,
+          "value": "deprecated"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Installed",
+          "validFor": null,
+          "value": "installed"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Managed-Beta",
+          "validFor": null,
+          "value": "beta"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Unmanaged",
+          "validFor": null,
+          "value": "unmanaged"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SecondGen-Installed-Editable",
+          "validFor": null,
+          "value": "installedEditable"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SecondGen-Installed-Deprecated",
+          "validFor": null,
+          "value": "deprecatedEditable"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Process Type",
+      "name": "ProcessType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Standard",
+          "validFor": null,
+          "value": "DataProcessingEngine"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Rebates",
+          "validFor": null,
+          "value": "Rebates"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Loyalty",
+          "validFor": null,
+          "value": "Loyalty"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Advanced Account Forecast",
+          "validFor": null,
+          "value": "AdvancedAccountForecast"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Loyalty: Partner Management",
+          "validFor": null,
+          "value": "LoyaltyPartnerManagement"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Loyalty: Points Aggregation",
+          "validFor": null,
+          "value": "LoyaltyPointsAggregation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Net Zero",
+          "validFor": null,
+          "value": "NetZero"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Program Based Business",
+          "validFor": null,
+          "value": "ProgramBasedBusiness"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Health Cloud Provider Search",
+          "validFor": null,
+          "value": "ProviderSearch"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Actionable List",
+          "validFor": null,
+          "value": "ActionableList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Decision Matrix Data Upload",
+          "validFor": null,
+          "value": "DecisionMatrixDataUpload"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Program Management Rollups",
+          "validFor": null,
+          "value": "ProgramManagementRollups"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Criteria-Based Search And Filter",
+          "validFor": null,
+          "value": "CriteriaBsdSearchAndFilter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record Aggregation",
+          "validFor": null,
+          "value": "RecordAggregation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Education Cloud Data Processing",
+          "validFor": null,
+          "value": "Education"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Enrichment Field Copy",
+          "validFor": null,
+          "value": "CDPEnrichment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "InvoiceBatchRunMigration",
+          "validFor": null,
+          "value": "InvoiceBatchRunMigration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Benefit Management",
+          "validFor": null,
+          "value": "BenefitManagement"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": "CRMA",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Execution Platform Type",
+      "name": "ExecutionPlatformType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "CRM Analytics",
+          "validFor": null,
+          "value": "CRMA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Data Cloud",
+          "validFor": null,
+          "value": "CDP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Core",
+          "validFor": null,
+          "value": "CORE"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Data Space Api Name",
+      "name": "DataSpaceApiName",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    }
+  ],
+  "label": "Batch Calculation Job Definition View",
+  "childRelationships": [],
+  "custom": false,
+  "name": "BatchCalcJobDefinitionView",
+  "queryable": true
+}

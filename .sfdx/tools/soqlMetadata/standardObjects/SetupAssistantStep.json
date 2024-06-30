@@ -1,0 +1,289 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Setup Assistant Step ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Name",
+      "name": "Name",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Assistant Type",
+      "name": "AssistantType",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "MULTI_FACTOR_AUTHENTICATION",
+          "validFor": null,
+          "value": "MULTI_FACTOR_AUTHENTICATION"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HYPERFORCE_ASSISTANT",
+          "validFor": null,
+          "value": "HYPERFORCE_ASSISTANT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PIPELINE_INSPECTION_SETUP",
+          "validFor": null,
+          "value": "PIPELINE_INSPECTION_SETUP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "REVENUE_INSIGHTS_SETUP",
+          "validFor": null,
+          "value": "REVENUE_INSIGHTS_SETUP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PRODUCT_VARIANT",
+          "validFor": null,
+          "value": "PRODUCT_VARIANT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SLACK_SETUP_ASSISTANT",
+          "validFor": null,
+          "value": "SLACK_SETUP_ASSISTANT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SALES_CLOUD_FOR_SLACK",
+          "validFor": null,
+          "value": "SALES_CLOUD_FOR_SLACK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PRM_FOR_SLACK_SETUP",
+          "validFor": null,
+          "value": "PRM_FOR_SLACK_SETUP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ACCOUNT_INTELLIGENCE_SETUP",
+          "validFor": null,
+          "value": "ACCOUNT_INTELLIGENCE_SETUP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PRM_UNIFIED_SETUP",
+          "validFor": null,
+          "value": "PRM_UNIFIED_SETUP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "REMOTE_DATA_CLOUD_GUIDED_SETUP",
+          "validFor": null,
+          "value": "REMOTE_DATA_CLOUD_GUIDED_SETUP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DATA_CLOUD_CONNECTION_GUIDED_SETUP",
+          "validFor": null,
+          "value": "DATA_CLOUD_CONNECTION_GUIDED_SETUP"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Is Complete",
+      "name": "IsComplete",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    }
+  ],
+  "label": "Setup Assistant Step",
+  "childRelationships": [
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowExecutionErrorEvent",
+      "deprecatedAndHidden": false,
+      "field": "ContextRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    }
+  ],
+  "custom": false,
+  "name": "SetupAssistantStep",
+  "queryable": true
+}

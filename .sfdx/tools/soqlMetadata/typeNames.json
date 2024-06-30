@@ -1,0 +1,4078 @@
+[
+  {
+    "name": "AIApplication",
+    "custom": false
+  },
+  {
+    "name": "AIApplicationConfig",
+    "custom": false
+  },
+  {
+    "name": "AIInsightAction",
+    "custom": false
+  },
+  {
+    "name": "AIInsightFeedback",
+    "custom": false
+  },
+  {
+    "name": "AIInsightReason",
+    "custom": false
+  },
+  {
+    "name": "AIInsightValue",
+    "custom": false
+  },
+  {
+    "name": "AIPredictionEvent",
+    "custom": false
+  },
+  {
+    "name": "AIRecordInsight",
+    "custom": false
+  },
+  {
+    "name": "AcceptedEventRelation",
+    "custom": false
+  },
+  {
+    "name": "Account",
+    "custom": false
+  },
+  {
+    "name": "AccountChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "AccountContactRole",
+    "custom": false
+  },
+  {
+    "name": "AccountContactRoleChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "AccountHistory",
+    "custom": false
+  },
+  {
+    "name": "AccountPartner",
+    "custom": false
+  },
+  {
+    "name": "AccountShare",
+    "custom": false
+  },
+  {
+    "name": "ActionLinkGroupTemplate",
+    "custom": false
+  },
+  {
+    "name": "ActionLinkTemplate",
+    "custom": false
+  },
+  {
+    "name": "ActionPlan",
+    "custom": false
+  },
+  {
+    "name": "ActionPlanItem",
+    "custom": false
+  },
+  {
+    "name": "ActionPlanItemDependency",
+    "custom": false
+  },
+  {
+    "name": "ActionPlanShare",
+    "custom": false
+  },
+  {
+    "name": "ActionPlanTemplate",
+    "custom": false
+  },
+  {
+    "name": "ActionPlanTemplateItem",
+    "custom": false
+  },
+  {
+    "name": "ActionPlanTemplateItemValue",
+    "custom": false
+  },
+  {
+    "name": "ActionPlanTemplateShare",
+    "custom": false
+  },
+  {
+    "name": "ActionPlanTemplateVersion",
+    "custom": false
+  },
+  {
+    "name": "ActionPlanTmplItmAssessmentInd",
+    "custom": false
+  },
+  {
+    "name": "ActionPlanTmplPkgConfig",
+    "custom": false
+  },
+  {
+    "name": "ActionPlnTmplItmDependency",
+    "custom": false
+  },
+  {
+    "name": "ActiveFeatureLicenseMetric",
+    "custom": false
+  },
+  {
+    "name": "ActivePermSetLicenseMetric",
+    "custom": false
+  },
+  {
+    "name": "ActiveProfileMetric",
+    "custom": false
+  },
+  {
+    "name": "ActivityFieldHistory",
+    "custom": false
+  },
+  {
+    "name": "ActivityHistory",
+    "custom": false
+  },
+  {
+    "name": "AdditionalNumber",
+    "custom": false
+  },
+  {
+    "name": "Address",
+    "custom": false
+  },
+  {
+    "name": "AdvAccountForecastFact",
+    "custom": false
+  },
+  {
+    "name": "AdvAccountForecastFactHistory",
+    "custom": false
+  },
+  {
+    "name": "AdvAccountForecastFactShare",
+    "custom": false
+  },
+  {
+    "name": "AdvAcctForecastFactAdj",
+    "custom": false
+  },
+  {
+    "name": "AdvAcctForecastFactAdjShare",
+    "custom": false
+  },
+  {
+    "name": "AdvAcctForecastSetPartner",
+    "custom": false
+  },
+  {
+    "name": "AdvAcctForecastSetPartnerHistory",
+    "custom": false
+  },
+  {
+    "name": "AdvAcctForecastSetPartnerShare",
+    "custom": false
+  },
+  {
+    "name": "AdvAcctForecastSetUse",
+    "custom": false
+  },
+  {
+    "name": "AdvAcctForecastSetUseHistory",
+    "custom": false
+  },
+  {
+    "name": "AdvAcctForecastSetUseShare",
+    "custom": false
+  },
+  {
+    "name": "AggregateResult",
+    "custom": false
+  },
+  {
+    "name": "AlternativePaymentMethod",
+    "custom": false
+  },
+  {
+    "name": "AlternativePaymentMethodShare",
+    "custom": false
+  },
+  {
+    "name": "ApexClass",
+    "custom": false
+  },
+  {
+    "name": "ApexComponent",
+    "custom": false
+  },
+  {
+    "name": "ApexEmailNotification",
+    "custom": false
+  },
+  {
+    "name": "ApexLog",
+    "custom": false
+  },
+  {
+    "name": "ApexPage",
+    "custom": false
+  },
+  {
+    "name": "ApexPageInfo",
+    "custom": false
+  },
+  {
+    "name": "ApexTestQueueItem",
+    "custom": false
+  },
+  {
+    "name": "ApexTestResult",
+    "custom": false
+  },
+  {
+    "name": "ApexTestResultLimits",
+    "custom": false
+  },
+  {
+    "name": "ApexTestRunResult",
+    "custom": false
+  },
+  {
+    "name": "ApexTestSuite",
+    "custom": false
+  },
+  {
+    "name": "ApexTrigger",
+    "custom": false
+  },
+  {
+    "name": "ApexTypeImplementor",
+    "custom": false
+  },
+  {
+    "name": "ApiAnomalyEvent",
+    "custom": false
+  },
+  {
+    "name": "ApiAnomalyEventStore",
+    "custom": false
+  },
+  {
+    "name": "ApiEvent",
+    "custom": false
+  },
+  {
+    "name": "ApiEventStream",
+    "custom": false
+  },
+  {
+    "name": "AppAnalyticsQueryRequest",
+    "custom": false
+  },
+  {
+    "name": "AppDefinition",
+    "custom": false
+  },
+  {
+    "name": "AppMenuItem",
+    "custom": false
+  },
+  {
+    "name": "AppTabMember",
+    "custom": false
+  },
+  {
+    "name": "AppUsageAssignment",
+    "custom": false
+  },
+  {
+    "name": "ApplicationSubtypeDefinition",
+    "custom": false
+  },
+  {
+    "name": "AssessmentIndDefinedValue",
+    "custom": false
+  },
+  {
+    "name": "AssessmentIndDefinedValueHistory",
+    "custom": false
+  },
+  {
+    "name": "AssessmentIndicatorDefinition",
+    "custom": false
+  },
+  {
+    "name": "AssessmentIndicatorDefinitionHistory",
+    "custom": false
+  },
+  {
+    "name": "AssessmentIndicatorDefinitionShare",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTask",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTaskContentDocument",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTaskContentDocumentHistory",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTaskDefinition",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTaskDefinitionHistory",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTaskDefinitionShare",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTaskHistory",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTaskIndDefinition",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTaskIndDefinitionHistory",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTaskOrder",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTaskOrderHistory",
+    "custom": false
+  },
+  {
+    "name": "AssessmentTaskShare",
+    "custom": false
+  },
+  {
+    "name": "Asset",
+    "custom": false
+  },
+  {
+    "name": "AssetAction",
+    "custom": false
+  },
+  {
+    "name": "AssetActionSource",
+    "custom": false
+  },
+  {
+    "name": "AssetChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "AssetHistory",
+    "custom": false
+  },
+  {
+    "name": "AssetRelationship",
+    "custom": false
+  },
+  {
+    "name": "AssetRelationshipHistory",
+    "custom": false
+  },
+  {
+    "name": "AssetStatePeriod",
+    "custom": false
+  },
+  {
+    "name": "AssetTokenEvent",
+    "custom": false
+  },
+  {
+    "name": "AssignmentRule",
+    "custom": false
+  },
+  {
+    "name": "AssociatedLocation",
+    "custom": false
+  },
+  {
+    "name": "AssociatedLocationHistory",
+    "custom": false
+  },
+  {
+    "name": "AsyncApexJob",
+    "custom": false
+  },
+  {
+    "name": "AsyncOperationEvent",
+    "custom": false
+  },
+  {
+    "name": "AsyncOperationLog",
+    "custom": false
+  },
+  {
+    "name": "AsyncOperationStatus",
+    "custom": false
+  },
+  {
+    "name": "AsyncOperationTracker",
+    "custom": false
+  },
+  {
+    "name": "AsyncOperationTrackerShare",
+    "custom": false
+  },
+  {
+    "name": "AttachedContentDocument",
+    "custom": false
+  },
+  {
+    "name": "Attachment",
+    "custom": false
+  },
+  {
+    "name": "AuditTrailFileExport",
+    "custom": false
+  },
+  {
+    "name": "AuditTrailFileExportShare",
+    "custom": false
+  },
+  {
+    "name": "AuraDefinition",
+    "custom": false
+  },
+  {
+    "name": "AuraDefinitionBundle",
+    "custom": false
+  },
+  {
+    "name": "AuraDefinitionBundleInfo",
+    "custom": false
+  },
+  {
+    "name": "AuraDefinitionInfo",
+    "custom": false
+  },
+  {
+    "name": "AuthConfig",
+    "custom": false
+  },
+  {
+    "name": "AuthConfigProviders",
+    "custom": false
+  },
+  {
+    "name": "AuthProvider",
+    "custom": false
+  },
+  {
+    "name": "AuthSession",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationForm",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormConsent",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormConsentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormConsentHistory",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormConsentShare",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormDataUse",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormDataUseHistory",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormDataUseShare",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormHistory",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormShare",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormText",
+    "custom": false
+  },
+  {
+    "name": "AuthorizationFormTextHistory",
+    "custom": false
+  },
+  {
+    "name": "BackgroundOperation",
+    "custom": false
+  },
+  {
+    "name": "BackgroundOperationResult",
+    "custom": false
+  },
+  {
+    "name": "BatchApexErrorEvent",
+    "custom": false
+  },
+  {
+    "name": "BatchCalcJobDefinition",
+    "custom": false
+  },
+  {
+    "name": "BatchCalcJobDefinitionView",
+    "custom": false
+  },
+  {
+    "name": "BatchDataSource",
+    "custom": false
+  },
+  {
+    "name": "BatchDataSrcFilterCriteria",
+    "custom": false
+  },
+  {
+    "name": "BatchJob",
+    "custom": false
+  },
+  {
+    "name": "BatchJobDefinition",
+    "custom": false
+  },
+  {
+    "name": "BatchJobHistory",
+    "custom": false
+  },
+  {
+    "name": "BatchJobPart",
+    "custom": false
+  },
+  {
+    "name": "BatchJobPartFailedRecord",
+    "custom": false
+  },
+  {
+    "name": "BatchJobPartFailedRecordHistory",
+    "custom": false
+  },
+  {
+    "name": "BatchJobPartHistory",
+    "custom": false
+  },
+  {
+    "name": "BatchJobShare",
+    "custom": false
+  },
+  {
+    "name": "BatchJobStatusChangedEvent",
+    "custom": false
+  },
+  {
+    "name": "BatchProcessJobDefView",
+    "custom": false
+  },
+  {
+    "name": "BatchProcessJobDefinition",
+    "custom": false
+  },
+  {
+    "name": "BrandTemplate",
+    "custom": false
+  },
+  {
+    "name": "BrandingSet",
+    "custom": false
+  },
+  {
+    "name": "BrandingSetProperty",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseAssignment",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseAssignmentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseDefinition",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseDefinitionChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseRule",
+    "custom": false
+  },
+  {
+    "name": "BriefcaseRuleFilter",
+    "custom": false
+  },
+  {
+    "name": "BulkApiResultEvent",
+    "custom": false
+  },
+  {
+    "name": "BulkApiResultEventStore",
+    "custom": false
+  },
+  {
+    "name": "BusinessBrand",
+    "custom": false
+  },
+  {
+    "name": "BusinessBrandShare",
+    "custom": false
+  },
+  {
+    "name": "BusinessHours",
+    "custom": false
+  },
+  {
+    "name": "BusinessProcess",
+    "custom": false
+  },
+  {
+    "name": "BusinessProcessTypeDef",
+    "custom": false
+  },
+  {
+    "name": "CalcMatrixColumnRange",
+    "custom": false
+  },
+  {
+    "name": "CalcMatrixColumnRangeHistory",
+    "custom": false
+  },
+  {
+    "name": "CalcProcStepRelationship",
+    "custom": false
+  },
+  {
+    "name": "CalcProcStepRelationshipHistory",
+    "custom": false
+  },
+  {
+    "name": "CalculationMatrix",
+    "custom": false
+  },
+  {
+    "name": "CalculationMatrixColumn",
+    "custom": false
+  },
+  {
+    "name": "CalculationMatrixColumnHistory",
+    "custom": false
+  },
+  {
+    "name": "CalculationMatrixHistory",
+    "custom": false
+  },
+  {
+    "name": "CalculationMatrixRow",
+    "custom": false
+  },
+  {
+    "name": "CalculationMatrixRowHistory",
+    "custom": false
+  },
+  {
+    "name": "CalculationMatrixShare",
+    "custom": false
+  },
+  {
+    "name": "CalculationMatrixVersion",
+    "custom": false
+  },
+  {
+    "name": "CalculationMatrixVersionHistory",
+    "custom": false
+  },
+  {
+    "name": "CalculationProcedure",
+    "custom": false
+  },
+  {
+    "name": "CalculationProcedureHistory",
+    "custom": false
+  },
+  {
+    "name": "CalculationProcedureShare",
+    "custom": false
+  },
+  {
+    "name": "CalculationProcedureStep",
+    "custom": false
+  },
+  {
+    "name": "CalculationProcedureStepHistory",
+    "custom": false
+  },
+  {
+    "name": "CalculationProcedureVariable",
+    "custom": false
+  },
+  {
+    "name": "CalculationProcedureVariableHistory",
+    "custom": false
+  },
+  {
+    "name": "CalculationProcedureVersion",
+    "custom": false
+  },
+  {
+    "name": "CalculationProcedureVersionHistory",
+    "custom": false
+  },
+  {
+    "name": "Calendar",
+    "custom": false
+  },
+  {
+    "name": "CalendarView",
+    "custom": false
+  },
+  {
+    "name": "CalendarViewShare",
+    "custom": false
+  },
+  {
+    "name": "CallCenter",
+    "custom": false
+  },
+  {
+    "name": "CallCoachingMediaProvider",
+    "custom": false
+  },
+  {
+    "name": "Campaign",
+    "custom": false
+  },
+  {
+    "name": "CampaignChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CampaignHistory",
+    "custom": false
+  },
+  {
+    "name": "CampaignMember",
+    "custom": false
+  },
+  {
+    "name": "CampaignMemberChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CampaignMemberStatus",
+    "custom": false
+  },
+  {
+    "name": "CampaignMemberStatusChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CampaignShare",
+    "custom": false
+  },
+  {
+    "name": "CardPaymentMethod",
+    "custom": false
+  },
+  {
+    "name": "Case",
+    "custom": false
+  },
+  {
+    "name": "CaseChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CaseComment",
+    "custom": false
+  },
+  {
+    "name": "CaseContactRole",
+    "custom": false
+  },
+  {
+    "name": "CaseHistory",
+    "custom": false
+  },
+  {
+    "name": "CaseHistory2",
+    "custom": false
+  },
+  {
+    "name": "CaseHistory2ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CaseMilestone",
+    "custom": false
+  },
+  {
+    "name": "CaseRelatedIssue",
+    "custom": false
+  },
+  {
+    "name": "CaseRelatedIssueChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CaseRelatedIssueHistory",
+    "custom": false
+  },
+  {
+    "name": "CaseShare",
+    "custom": false
+  },
+  {
+    "name": "CaseSolution",
+    "custom": false
+  },
+  {
+    "name": "CaseStatus",
+    "custom": false
+  },
+  {
+    "name": "CaseTeamMember",
+    "custom": false
+  },
+  {
+    "name": "CaseTeamRole",
+    "custom": false
+  },
+  {
+    "name": "CaseTeamTemplate",
+    "custom": false
+  },
+  {
+    "name": "CaseTeamTemplateMember",
+    "custom": false
+  },
+  {
+    "name": "CaseTeamTemplateRecord",
+    "custom": false
+  },
+  {
+    "name": "CategoryData",
+    "custom": false
+  },
+  {
+    "name": "CategoryNode",
+    "custom": false
+  },
+  {
+    "name": "ChangeRequest",
+    "custom": false
+  },
+  {
+    "name": "ChangeRequestChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ChangeRequestHistory",
+    "custom": false
+  },
+  {
+    "name": "ChangeRequestRelatedIssue",
+    "custom": false
+  },
+  {
+    "name": "ChangeRequestRelatedIssueChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ChangeRequestRelatedIssueHistory",
+    "custom": false
+  },
+  {
+    "name": "ChangeRequestRelatedItem",
+    "custom": false
+  },
+  {
+    "name": "ChangeRequestRelatedItemChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ChangeRequestRelatedItemHistory",
+    "custom": false
+  },
+  {
+    "name": "ChangeRequestShare",
+    "custom": false
+  },
+  {
+    "name": "ClientBrowser",
+    "custom": false
+  },
+  {
+    "name": "ColorDefinition",
+    "custom": false
+  },
+  {
+    "name": "CombinedAttachment",
+    "custom": false
+  },
+  {
+    "name": "CommSubscription",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionChannelType",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionChannelTypeHistory",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionChannelTypeShare",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionConsent",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionConsentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionConsentHistory",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionConsentShare",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionHistory",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionShare",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionTiming",
+    "custom": false
+  },
+  {
+    "name": "CommSubscriptionTimingHistory",
+    "custom": false
+  },
+  {
+    "name": "Community",
+    "custom": false
+  },
+  {
+    "name": "ConcurLongRunApexErrEvent",
+    "custom": false
+  },
+  {
+    "name": "ConferenceNumber",
+    "custom": false
+  },
+  {
+    "name": "ConnectedApplication",
+    "custom": false
+  },
+  {
+    "name": "ConsumptionRate",
+    "custom": false
+  },
+  {
+    "name": "ConsumptionRateHistory",
+    "custom": false
+  },
+  {
+    "name": "ConsumptionSchedule",
+    "custom": false
+  },
+  {
+    "name": "ConsumptionScheduleHistory",
+    "custom": false
+  },
+  {
+    "name": "ConsumptionScheduleShare",
+    "custom": false
+  },
+  {
+    "name": "Contact",
+    "custom": false
+  },
+  {
+    "name": "ContactChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointAddress",
+    "custom": false
+  },
+  {
+    "name": "ContactPointAddressChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointAddressHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointAddressShare",
+    "custom": false
+  },
+  {
+    "name": "ContactPointConsent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointConsentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointConsentHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointConsentShare",
+    "custom": false
+  },
+  {
+    "name": "ContactPointEmail",
+    "custom": false
+  },
+  {
+    "name": "ContactPointEmailChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointEmailHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointEmailShare",
+    "custom": false
+  },
+  {
+    "name": "ContactPointPhone",
+    "custom": false
+  },
+  {
+    "name": "ContactPointPhoneChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointPhoneHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointPhoneShare",
+    "custom": false
+  },
+  {
+    "name": "ContactPointTypeConsent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointTypeConsentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContactPointTypeConsentHistory",
+    "custom": false
+  },
+  {
+    "name": "ContactPointTypeConsentShare",
+    "custom": false
+  },
+  {
+    "name": "ContactRequest",
+    "custom": false
+  },
+  {
+    "name": "ContactRequestShare",
+    "custom": false
+  },
+  {
+    "name": "ContactShare",
+    "custom": false
+  },
+  {
+    "name": "ContentAsset",
+    "custom": false
+  },
+  {
+    "name": "ContentBody",
+    "custom": false
+  },
+  {
+    "name": "ContentDistribution",
+    "custom": false
+  },
+  {
+    "name": "ContentDistributionView",
+    "custom": false
+  },
+  {
+    "name": "ContentDocument",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentHistory",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentLink",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentLinkChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContentDocumentSubscription",
+    "custom": false
+  },
+  {
+    "name": "ContentFolder",
+    "custom": false
+  },
+  {
+    "name": "ContentFolderItem",
+    "custom": false
+  },
+  {
+    "name": "ContentFolderLink",
+    "custom": false
+  },
+  {
+    "name": "ContentFolderMember",
+    "custom": false
+  },
+  {
+    "name": "ContentNotification",
+    "custom": false
+  },
+  {
+    "name": "ContentTagSubscription",
+    "custom": false
+  },
+  {
+    "name": "ContentUserSubscription",
+    "custom": false
+  },
+  {
+    "name": "ContentVersion",
+    "custom": false
+  },
+  {
+    "name": "ContentVersionChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContentVersionComment",
+    "custom": false
+  },
+  {
+    "name": "ContentVersionHistory",
+    "custom": false
+  },
+  {
+    "name": "ContentVersionRating",
+    "custom": false
+  },
+  {
+    "name": "ContentWorkspace",
+    "custom": false
+  },
+  {
+    "name": "ContentWorkspaceDoc",
+    "custom": false
+  },
+  {
+    "name": "ContentWorkspaceMember",
+    "custom": false
+  },
+  {
+    "name": "ContentWorkspacePermission",
+    "custom": false
+  },
+  {
+    "name": "ContentWorkspaceSubscription",
+    "custom": false
+  },
+  {
+    "name": "ContextParamMap",
+    "custom": false
+  },
+  {
+    "name": "Contract",
+    "custom": false
+  },
+  {
+    "name": "ContractChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContractContactRole",
+    "custom": false
+  },
+  {
+    "name": "ContractHistory",
+    "custom": false
+  },
+  {
+    "name": "ContractLineItem",
+    "custom": false
+  },
+  {
+    "name": "ContractLineItemChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ContractLineItemHistory",
+    "custom": false
+  },
+  {
+    "name": "ContractStatus",
+    "custom": false
+  },
+  {
+    "name": "ConvMessageSendRequest",
+    "custom": false
+  },
+  {
+    "name": "Conversation",
+    "custom": false
+  },
+  {
+    "name": "ConversationEntry",
+    "custom": false
+  },
+  {
+    "name": "ConversationParticipant",
+    "custom": false
+  },
+  {
+    "name": "CorsWhitelistEntry",
+    "custom": false
+  },
+  {
+    "name": "CredentialStuffingEvent",
+    "custom": false
+  },
+  {
+    "name": "CredentialStuffingEventStore",
+    "custom": false
+  },
+  {
+    "name": "CreditMemo",
+    "custom": false
+  },
+  {
+    "name": "CreditMemoHistory",
+    "custom": false
+  },
+  {
+    "name": "CreditMemoInvApplication",
+    "custom": false
+  },
+  {
+    "name": "CreditMemoInvApplicationHistory",
+    "custom": false
+  },
+  {
+    "name": "CreditMemoLine",
+    "custom": false
+  },
+  {
+    "name": "CreditMemoLineHistory",
+    "custom": false
+  },
+  {
+    "name": "CreditMemoShare",
+    "custom": false
+  },
+  {
+    "name": "CronJobDetail",
+    "custom": false
+  },
+  {
+    "name": "CronTrigger",
+    "custom": false
+  },
+  {
+    "name": "CspTrustedSite",
+    "custom": false
+  },
+  {
+    "name": "CustomBrand",
+    "custom": false
+  },
+  {
+    "name": "CustomBrandAsset",
+    "custom": false
+  },
+  {
+    "name": "CustomHelpMenuItem",
+    "custom": false
+  },
+  {
+    "name": "CustomHelpMenuSection",
+    "custom": false
+  },
+  {
+    "name": "CustomHttpHeader",
+    "custom": false
+  },
+  {
+    "name": "CustomNotificationType",
+    "custom": false
+  },
+  {
+    "name": "CustomPermission",
+    "custom": false
+  },
+  {
+    "name": "CustomPermissionDependency",
+    "custom": false
+  },
+  {
+    "name": "Customer",
+    "custom": false
+  },
+  {
+    "name": "CustomerShare",
+    "custom": false
+  },
+  {
+    "name": "DandBCompany",
+    "custom": false
+  },
+  {
+    "name": "Dashboard",
+    "custom": false
+  },
+  {
+    "name": "DashboardComponent",
+    "custom": false
+  },
+  {
+    "name": "DataAssessmentFieldMetric",
+    "custom": false
+  },
+  {
+    "name": "DataAssessmentMetric",
+    "custom": false
+  },
+  {
+    "name": "DataAssessmentValueMetric",
+    "custom": false
+  },
+  {
+    "name": "DataObjectDataChgEvent",
+    "custom": false
+  },
+  {
+    "name": "DataStatistics",
+    "custom": false
+  },
+  {
+    "name": "DataType",
+    "custom": false
+  },
+  {
+    "name": "DataUseLegalBasis",
+    "custom": false
+  },
+  {
+    "name": "DataUseLegalBasisHistory",
+    "custom": false
+  },
+  {
+    "name": "DataUseLegalBasisShare",
+    "custom": false
+  },
+  {
+    "name": "DataUsePurpose",
+    "custom": false
+  },
+  {
+    "name": "DataUsePurposeHistory",
+    "custom": false
+  },
+  {
+    "name": "DataUsePurposeShare",
+    "custom": false
+  },
+  {
+    "name": "DataWeaveResource",
+    "custom": false
+  },
+  {
+    "name": "DatacloudAddress",
+    "custom": false
+  },
+  {
+    "name": "DatacloudDandBCompany",
+    "custom": false
+  },
+  {
+    "name": "DatacloudOwnedEntity",
+    "custom": false
+  },
+  {
+    "name": "DatacloudPurchaseUsage",
+    "custom": false
+  },
+  {
+    "name": "DecisionMatrixDefinition",
+    "custom": false
+  },
+  {
+    "name": "DecisionMatrixDefinitionVersion",
+    "custom": false
+  },
+  {
+    "name": "DecisionTable",
+    "custom": false
+  },
+  {
+    "name": "DecisionTableDatasetLink",
+    "custom": false
+  },
+  {
+    "name": "DecisionTableParameter",
+    "custom": false
+  },
+  {
+    "name": "DecisionTableSourceCriteria",
+    "custom": false
+  },
+  {
+    "name": "DecisionTblDatasetParameter",
+    "custom": false
+  },
+  {
+    "name": "DeclinedEventRelation",
+    "custom": false
+  },
+  {
+    "name": "DeleteEvent",
+    "custom": false
+  },
+  {
+    "name": "DigitalSignature",
+    "custom": false
+  },
+  {
+    "name": "DigitalSignatureChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "DigitalWallet",
+    "custom": false
+  },
+  {
+    "name": "Document",
+    "custom": false
+  },
+  {
+    "name": "DocumentAttachmentMap",
+    "custom": false
+  },
+  {
+    "name": "DocumentChecklistItem",
+    "custom": false
+  },
+  {
+    "name": "DocumentChecklistItemHistory",
+    "custom": false
+  },
+  {
+    "name": "DocumentChecklistItemShare",
+    "custom": false
+  },
+  {
+    "name": "Domain",
+    "custom": false
+  },
+  {
+    "name": "DomainSite",
+    "custom": false
+  },
+  {
+    "name": "DuplicateJob",
+    "custom": false
+  },
+  {
+    "name": "DuplicateJobDefinition",
+    "custom": false
+  },
+  {
+    "name": "DuplicateJobMatchingRule",
+    "custom": false
+  },
+  {
+    "name": "DuplicateJobMatchingRuleDefinition",
+    "custom": false
+  },
+  {
+    "name": "DuplicateRecordItem",
+    "custom": false
+  },
+  {
+    "name": "DuplicateRecordSet",
+    "custom": false
+  },
+  {
+    "name": "DuplicateRule",
+    "custom": false
+  },
+  {
+    "name": "EmailBounceEvent",
+    "custom": false
+  },
+  {
+    "name": "EmailCapture",
+    "custom": false
+  },
+  {
+    "name": "EmailDomainFilter",
+    "custom": false
+  },
+  {
+    "name": "EmailDomainKey",
+    "custom": false
+  },
+  {
+    "name": "EmailMessage",
+    "custom": false
+  },
+  {
+    "name": "EmailMessageChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EmailMessageRelation",
+    "custom": false
+  },
+  {
+    "name": "EmailRelay",
+    "custom": false
+  },
+  {
+    "name": "EmailServicesAddress",
+    "custom": false
+  },
+  {
+    "name": "EmailServicesFunction",
+    "custom": false
+  },
+  {
+    "name": "EmailStatus",
+    "custom": false
+  },
+  {
+    "name": "EmailTemplate",
+    "custom": false
+  },
+  {
+    "name": "EmailTemplateChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EmbeddedServiceDetail",
+    "custom": false
+  },
+  {
+    "name": "EmbeddedServiceLabel",
+    "custom": false
+  },
+  {
+    "name": "EngagementAttendee",
+    "custom": false
+  },
+  {
+    "name": "EngagementAttendeeChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EngagementAttendeeHistory",
+    "custom": false
+  },
+  {
+    "name": "EngagementChannelType",
+    "custom": false
+  },
+  {
+    "name": "EngagementChannelTypeHistory",
+    "custom": false
+  },
+  {
+    "name": "EngagementChannelTypeShare",
+    "custom": false
+  },
+  {
+    "name": "EngagementInteraction",
+    "custom": false
+  },
+  {
+    "name": "EngagementInteractionChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EngagementInteractionHistory",
+    "custom": false
+  },
+  {
+    "name": "EngagementInteractionShare",
+    "custom": false
+  },
+  {
+    "name": "EngagementInterface",
+    "custom": false
+  },
+  {
+    "name": "EngagementTopic",
+    "custom": false
+  },
+  {
+    "name": "EngagementTopicChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EngagementTopicHistory",
+    "custom": false
+  },
+  {
+    "name": "EngmtChannelTypeSettings",
+    "custom": false
+  },
+  {
+    "name": "EnhancedLetterhead",
+    "custom": false
+  },
+  {
+    "name": "Entitlement",
+    "custom": false
+  },
+  {
+    "name": "EntitlementChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EntitlementContact",
+    "custom": false
+  },
+  {
+    "name": "EntitlementHistory",
+    "custom": false
+  },
+  {
+    "name": "EntitlementTemplate",
+    "custom": false
+  },
+  {
+    "name": "EntityDefinition",
+    "custom": false
+  },
+  {
+    "name": "EntityMilestone",
+    "custom": false
+  },
+  {
+    "name": "EntityMilestoneHistory",
+    "custom": false
+  },
+  {
+    "name": "EntityParticle",
+    "custom": false
+  },
+  {
+    "name": "Event",
+    "custom": false
+  },
+  {
+    "name": "EventBusSubscriber",
+    "custom": false
+  },
+  {
+    "name": "EventChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EventLogFile",
+    "custom": false
+  },
+  {
+    "name": "EventRelation",
+    "custom": false
+  },
+  {
+    "name": "EventRelationChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EventRelayConfig",
+    "custom": false
+  },
+  {
+    "name": "EventRelayConfigChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "EventRelayFeedback",
+    "custom": false
+  },
+  {
+    "name": "ExplainabilityActionDef",
+    "custom": false
+  },
+  {
+    "name": "ExplainabilityActionVersion",
+    "custom": false
+  },
+  {
+    "name": "ExplainabilityMsgTemplate",
+    "custom": false
+  },
+  {
+    "name": "ExpressionFilter",
+    "custom": false
+  },
+  {
+    "name": "ExpressionFilterCriteria",
+    "custom": false
+  },
+  {
+    "name": "ExpressionSet",
+    "custom": false
+  },
+  {
+    "name": "ExpressionSetDefinition",
+    "custom": false
+  },
+  {
+    "name": "ExpressionSetDefinitionVersion",
+    "custom": false
+  },
+  {
+    "name": "ExpressionSetHistory",
+    "custom": false
+  },
+  {
+    "name": "ExpressionSetMessageToken",
+    "custom": false
+  },
+  {
+    "name": "ExpressionSetObjectAlias",
+    "custom": false
+  },
+  {
+    "name": "ExpressionSetShare",
+    "custom": false
+  },
+  {
+    "name": "ExpressionSetVersion",
+    "custom": false
+  },
+  {
+    "name": "ExpressionSetVersionHistory",
+    "custom": false
+  },
+  {
+    "name": "ExpressionSetView",
+    "custom": false
+  },
+  {
+    "name": "ExpsSetObjectAliasFieldVw",
+    "custom": false
+  },
+  {
+    "name": "ExternalDataSource",
+    "custom": false
+  },
+  {
+    "name": "ExternalDataSrcDescriptor",
+    "custom": false
+  },
+  {
+    "name": "ExternalDataUserAuth",
+    "custom": false
+  },
+  {
+    "name": "ExternalEvent",
+    "custom": false
+  },
+  {
+    "name": "ExternalEventMapping",
+    "custom": false
+  },
+  {
+    "name": "ExternalEventMappingShare",
+    "custom": false
+  },
+  {
+    "name": "FieldDefinition",
+    "custom": false
+  },
+  {
+    "name": "FieldHistoryArchive",
+    "custom": false
+  },
+  {
+    "name": "FieldPermissions",
+    "custom": false
+  },
+  {
+    "name": "FieldSecurityClassification",
+    "custom": false
+  },
+  {
+    "name": "FileEvent",
+    "custom": false
+  },
+  {
+    "name": "FileEventStore",
+    "custom": false
+  },
+  {
+    "name": "FileSearchActivity",
+    "custom": false
+  },
+  {
+    "name": "FinanceBalanceSnapshot",
+    "custom": false
+  },
+  {
+    "name": "FinanceBalanceSnapshotChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "FinanceBalanceSnapshotShare",
+    "custom": false
+  },
+  {
+    "name": "FinanceTransaction",
+    "custom": false
+  },
+  {
+    "name": "FinanceTransactionChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "FinanceTransactionShare",
+    "custom": false
+  },
+  {
+    "name": "FiscalYearSettings",
+    "custom": false
+  },
+  {
+    "name": "FlexQueueItem",
+    "custom": false
+  },
+  {
+    "name": "FlowDefinitionView",
+    "custom": false
+  },
+  {
+    "name": "FlowExecutionErrorEvent",
+    "custom": false
+  },
+  {
+    "name": "FlowInterview",
+    "custom": false
+  },
+  {
+    "name": "FlowInterviewLog",
+    "custom": false
+  },
+  {
+    "name": "FlowInterviewLogEntry",
+    "custom": false
+  },
+  {
+    "name": "FlowInterviewLogShare",
+    "custom": false
+  },
+  {
+    "name": "FlowInterviewShare",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationEvent",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationInstance",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationInstanceShare",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationLog",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationStageInstance",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationStageInstanceShare",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationStepInstance",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationStepInstanceShare",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationWorkItem",
+    "custom": false
+  },
+  {
+    "name": "FlowOrchestrationWorkItemShare",
+    "custom": false
+  },
+  {
+    "name": "FlowRecord",
+    "custom": false
+  },
+  {
+    "name": "FlowRecordElement",
+    "custom": false
+  },
+  {
+    "name": "FlowRecordRelation",
+    "custom": false
+  },
+  {
+    "name": "FlowRecordShare",
+    "custom": false
+  },
+  {
+    "name": "FlowRecordVersion",
+    "custom": false
+  },
+  {
+    "name": "FlowRecordVersionChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "FlowRecordVersionOccurrence",
+    "custom": false
+  },
+  {
+    "name": "FlowStageRelation",
+    "custom": false
+  },
+  {
+    "name": "FlowTestResult",
+    "custom": false
+  },
+  {
+    "name": "FlowTestResultShare",
+    "custom": false
+  },
+  {
+    "name": "FlowTestView",
+    "custom": false
+  },
+  {
+    "name": "FlowVariableView",
+    "custom": false
+  },
+  {
+    "name": "FlowVersionView",
+    "custom": false
+  },
+  {
+    "name": "Folder",
+    "custom": false
+  },
+  {
+    "name": "FolderedContentDocument",
+    "custom": false
+  },
+  {
+    "name": "FormulaFunction",
+    "custom": false
+  },
+  {
+    "name": "FormulaFunctionAllowedType",
+    "custom": false
+  },
+  {
+    "name": "FormulaFunctionCategory",
+    "custom": false
+  },
+  {
+    "name": "GrantedByLicense",
+    "custom": false
+  },
+  {
+    "name": "Group",
+    "custom": false
+  },
+  {
+    "name": "GroupMember",
+    "custom": false
+  },
+  {
+    "name": "GtwyProvPaymentMethodType",
+    "custom": false
+  },
+  {
+    "name": "GuestUserAnomalyEvent",
+    "custom": false
+  },
+  {
+    "name": "GuestUserAnomalyEventStore",
+    "custom": false
+  },
+  {
+    "name": "Holiday",
+    "custom": false
+  },
+  {
+    "name": "IPAddressRange",
+    "custom": false
+  },
+  {
+    "name": "IconDefinition",
+    "custom": false
+  },
+  {
+    "name": "Idea",
+    "custom": false
+  },
+  {
+    "name": "IdeaComment",
+    "custom": false
+  },
+  {
+    "name": "IdentityProviderEventStore",
+    "custom": false
+  },
+  {
+    "name": "IdentityVerificationEvent",
+    "custom": false
+  },
+  {
+    "name": "IdpEventLog",
+    "custom": false
+  },
+  {
+    "name": "IframeWhiteListUrl",
+    "custom": false
+  },
+  {
+    "name": "Image",
+    "custom": false
+  },
+  {
+    "name": "ImageHistory",
+    "custom": false
+  },
+  {
+    "name": "ImageShare",
+    "custom": false
+  },
+  {
+    "name": "Incident",
+    "custom": false
+  },
+  {
+    "name": "IncidentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "IncidentHistory",
+    "custom": false
+  },
+  {
+    "name": "IncidentRelatedItem",
+    "custom": false
+  },
+  {
+    "name": "IncidentRelatedItemChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "IncidentRelatedItemHistory",
+    "custom": false
+  },
+  {
+    "name": "IncidentShare",
+    "custom": false
+  },
+  {
+    "name": "Individual",
+    "custom": false
+  },
+  {
+    "name": "IndividualChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "IndividualHistory",
+    "custom": false
+  },
+  {
+    "name": "IndividualShare",
+    "custom": false
+  },
+  {
+    "name": "InstalledMobileApp",
+    "custom": false
+  },
+  {
+    "name": "Invoice",
+    "custom": false
+  },
+  {
+    "name": "InvoiceHistory",
+    "custom": false
+  },
+  {
+    "name": "InvoiceLine",
+    "custom": false
+  },
+  {
+    "name": "InvoiceLineHistory",
+    "custom": false
+  },
+  {
+    "name": "InvoiceShare",
+    "custom": false
+  },
+  {
+    "name": "JournalType",
+    "custom": false
+  },
+  {
+    "name": "JournalTypeHistory",
+    "custom": false
+  },
+  {
+    "name": "JournalTypeShare",
+    "custom": false
+  },
+  {
+    "name": "Lead",
+    "custom": false
+  },
+  {
+    "name": "LeadChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "LeadHistory",
+    "custom": false
+  },
+  {
+    "name": "LeadShare",
+    "custom": false
+  },
+  {
+    "name": "LeadStatus",
+    "custom": false
+  },
+  {
+    "name": "LegalEntity",
+    "custom": false
+  },
+  {
+    "name": "LegalEntityHistory",
+    "custom": false
+  },
+  {
+    "name": "LegalEntityShare",
+    "custom": false
+  },
+  {
+    "name": "LightningExitByPageMetrics",
+    "custom": false
+  },
+  {
+    "name": "LightningExperienceTheme",
+    "custom": false
+  },
+  {
+    "name": "LightningOnboardingConfig",
+    "custom": false
+  },
+  {
+    "name": "LightningToggleMetrics",
+    "custom": false
+  },
+  {
+    "name": "LightningUriEvent",
+    "custom": false
+  },
+  {
+    "name": "LightningUriEventStream",
+    "custom": false
+  },
+  {
+    "name": "LightningUsageByAppTypeMetrics",
+    "custom": false
+  },
+  {
+    "name": "LightningUsageByBrowserMetrics",
+    "custom": false
+  },
+  {
+    "name": "LightningUsageByFlexiPageMetrics",
+    "custom": false
+  },
+  {
+    "name": "LightningUsageByPageMetrics",
+    "custom": false
+  },
+  {
+    "name": "ListEmail",
+    "custom": false
+  },
+  {
+    "name": "ListEmailChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ListEmailIndividualRecipient",
+    "custom": false
+  },
+  {
+    "name": "ListEmailRecipientSource",
+    "custom": false
+  },
+  {
+    "name": "ListEmailShare",
+    "custom": false
+  },
+  {
+    "name": "ListView",
+    "custom": false
+  },
+  {
+    "name": "ListViewChart",
+    "custom": false
+  },
+  {
+    "name": "ListViewChartInstance",
+    "custom": false
+  },
+  {
+    "name": "ListViewEvent",
+    "custom": false
+  },
+  {
+    "name": "ListViewEventStream",
+    "custom": false
+  },
+  {
+    "name": "LiveChatSensitiveDataRule",
+    "custom": false
+  },
+  {
+    "name": "Location",
+    "custom": false
+  },
+  {
+    "name": "LocationChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "LocationGroup",
+    "custom": false
+  },
+  {
+    "name": "LocationGroupAssignment",
+    "custom": false
+  },
+  {
+    "name": "LocationGroupHistory",
+    "custom": false
+  },
+  {
+    "name": "LocationGroupShare",
+    "custom": false
+  },
+  {
+    "name": "LocationHistory",
+    "custom": false
+  },
+  {
+    "name": "LocationShare",
+    "custom": false
+  },
+  {
+    "name": "LoginAsEvent",
+    "custom": false
+  },
+  {
+    "name": "LoginAsEventStream",
+    "custom": false
+  },
+  {
+    "name": "LoginEvent",
+    "custom": false
+  },
+  {
+    "name": "LoginEventStream",
+    "custom": false
+  },
+  {
+    "name": "LoginGeo",
+    "custom": false
+  },
+  {
+    "name": "LoginHistory",
+    "custom": false
+  },
+  {
+    "name": "LoginIp",
+    "custom": false
+  },
+  {
+    "name": "LogoutEvent",
+    "custom": false
+  },
+  {
+    "name": "LogoutEventStream",
+    "custom": false
+  },
+  {
+    "name": "LookedUpFromActivity",
+    "custom": false
+  },
+  {
+    "name": "MLEngagementEvent",
+    "custom": false
+  },
+  {
+    "name": "MLModel",
+    "custom": false
+  },
+  {
+    "name": "MLModelFactor",
+    "custom": false
+  },
+  {
+    "name": "MLModelFactorComponent",
+    "custom": false
+  },
+  {
+    "name": "MLModelMetric",
+    "custom": false
+  },
+  {
+    "name": "MLPredictionDefinition",
+    "custom": false
+  },
+  {
+    "name": "MLRecommendationDefinition",
+    "custom": false
+  },
+  {
+    "name": "Macro",
+    "custom": false
+  },
+  {
+    "name": "MacroChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "MacroHistory",
+    "custom": false
+  },
+  {
+    "name": "MacroInstruction",
+    "custom": false
+  },
+  {
+    "name": "MacroInstructionChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "MacroShare",
+    "custom": false
+  },
+  {
+    "name": "MacroUsage",
+    "custom": false
+  },
+  {
+    "name": "MacroUsageShare",
+    "custom": false
+  },
+  {
+    "name": "MailmergeTemplate",
+    "custom": false
+  },
+  {
+    "name": "ManagedContent",
+    "custom": false
+  },
+  {
+    "name": "ManagedContentChannel",
+    "custom": false
+  },
+  {
+    "name": "ManagedContentSpace",
+    "custom": false
+  },
+  {
+    "name": "ManagedContentVariant",
+    "custom": false
+  },
+  {
+    "name": "ManagedContentVariantChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "MatchingInformation",
+    "custom": false
+  },
+  {
+    "name": "MatchingRule",
+    "custom": false
+  },
+  {
+    "name": "MatchingRuleItem",
+    "custom": false
+  },
+  {
+    "name": "MessagingChannel",
+    "custom": false
+  },
+  {
+    "name": "MessagingChannelUsage",
+    "custom": false
+  },
+  {
+    "name": "MessagingEndUser",
+    "custom": false
+  },
+  {
+    "name": "MessagingEndUserHistory",
+    "custom": false
+  },
+  {
+    "name": "MessagingEndUserShare",
+    "custom": false
+  },
+  {
+    "name": "MessagingSession",
+    "custom": false
+  },
+  {
+    "name": "MessagingSessionHistory",
+    "custom": false
+  },
+  {
+    "name": "MessagingSessionShare",
+    "custom": false
+  },
+  {
+    "name": "MilestoneType",
+    "custom": false
+  },
+  {
+    "name": "MlFeatureValueMetric",
+    "custom": false
+  },
+  {
+    "name": "MlQueryObservation",
+    "custom": false
+  },
+  {
+    "name": "MobileApplicationDetail",
+    "custom": false
+  },
+  {
+    "name": "MsgChannelLanguageKeyword",
+    "custom": false
+  },
+  {
+    "name": "MsgChannelUsageExternalOrg",
+    "custom": false
+  },
+  {
+    "name": "MutingPermissionSet",
+    "custom": false
+  },
+  {
+    "name": "MyDomainDiscoverableLogin",
+    "custom": false
+  },
+  {
+    "name": "Name",
+    "custom": false
+  },
+  {
+    "name": "NamedCredential",
+    "custom": false
+  },
+  {
+    "name": "Note",
+    "custom": false
+  },
+  {
+    "name": "NoteAndAttachment",
+    "custom": false
+  },
+  {
+    "name": "OauthCustomScope",
+    "custom": false
+  },
+  {
+    "name": "OauthCustomScopeApp",
+    "custom": false
+  },
+  {
+    "name": "OauthToken",
+    "custom": false
+  },
+  {
+    "name": "OauthTokenExchHandlerApp",
+    "custom": false
+  },
+  {
+    "name": "OauthTokenExchangeHandler",
+    "custom": false
+  },
+  {
+    "name": "ObjectPermissions",
+    "custom": false
+  },
+  {
+    "name": "OmniDataPack",
+    "custom": false
+  },
+  {
+    "name": "OmniDataPackShare",
+    "custom": false
+  },
+  {
+    "name": "OmniDataTransform",
+    "custom": false
+  },
+  {
+    "name": "OmniDataTransformConfig",
+    "custom": false
+  },
+  {
+    "name": "OmniDataTransformItem",
+    "custom": false
+  },
+  {
+    "name": "OmniDataTransformShare",
+    "custom": false
+  },
+  {
+    "name": "OmniESignatureTemplate",
+    "custom": false
+  },
+  {
+    "name": "OmniESignatureTemplateShare",
+    "custom": false
+  },
+  {
+    "name": "OmniExtTrackingDef",
+    "custom": false
+  },
+  {
+    "name": "OmniExtTrackingEventDef",
+    "custom": false
+  },
+  {
+    "name": "OmniIntegrationProcConfig",
+    "custom": false
+  },
+  {
+    "name": "OmniInteractionAccessConfig",
+    "custom": false
+  },
+  {
+    "name": "OmniInteractionConfig",
+    "custom": false
+  },
+  {
+    "name": "OmniProcess",
+    "custom": false
+  },
+  {
+    "name": "OmniProcessCompilation",
+    "custom": false
+  },
+  {
+    "name": "OmniProcessElement",
+    "custom": false
+  },
+  {
+    "name": "OmniProcessShare",
+    "custom": false
+  },
+  {
+    "name": "OmniProcessTransientData",
+    "custom": false
+  },
+  {
+    "name": "OmniProcessTransientDataShare",
+    "custom": false
+  },
+  {
+    "name": "OmniScriptConfig",
+    "custom": false
+  },
+  {
+    "name": "OmniScriptSavedSession",
+    "custom": false
+  },
+  {
+    "name": "OmniScriptSavedSessionShare",
+    "custom": false
+  },
+  {
+    "name": "OmniTrackingComponentDef",
+    "custom": false
+  },
+  {
+    "name": "OmniTrackingEvent",
+    "custom": false
+  },
+  {
+    "name": "OmniTrackingGroup",
+    "custom": false
+  },
+  {
+    "name": "OmniUiCard",
+    "custom": false
+  },
+  {
+    "name": "OmniUiCardConfig",
+    "custom": false
+  },
+  {
+    "name": "OmniUiCardShare",
+    "custom": false
+  },
+  {
+    "name": "OnboardingMetrics",
+    "custom": false
+  },
+  {
+    "name": "OpenActivity",
+    "custom": false
+  },
+  {
+    "name": "Opportunity",
+    "custom": false
+  },
+  {
+    "name": "OpportunityChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "OpportunityCompetitor",
+    "custom": false
+  },
+  {
+    "name": "OpportunityContactRole",
+    "custom": false
+  },
+  {
+    "name": "OpportunityContactRoleChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "OpportunityFieldHistory",
+    "custom": false
+  },
+  {
+    "name": "OpportunityHistory",
+    "custom": false
+  },
+  {
+    "name": "OpportunityLineItem",
+    "custom": false
+  },
+  {
+    "name": "OpportunityLineItemChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "OpportunityPartner",
+    "custom": false
+  },
+  {
+    "name": "OpportunityRelatedDeleteLog",
+    "custom": false
+  },
+  {
+    "name": "OpportunityShare",
+    "custom": false
+  },
+  {
+    "name": "OpportunityStage",
+    "custom": false
+  },
+  {
+    "name": "Order",
+    "custom": false
+  },
+  {
+    "name": "OrderChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "OrderHistory",
+    "custom": false
+  },
+  {
+    "name": "OrderItem",
+    "custom": false
+  },
+  {
+    "name": "OrderItemChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "OrderItemHistory",
+    "custom": false
+  },
+  {
+    "name": "OrderShare",
+    "custom": false
+  },
+  {
+    "name": "OrderStatus",
+    "custom": false
+  },
+  {
+    "name": "OrgDeleteRequest",
+    "custom": false
+  },
+  {
+    "name": "OrgDeleteRequestShare",
+    "custom": false
+  },
+  {
+    "name": "OrgEmailAddressSecurity",
+    "custom": false
+  },
+  {
+    "name": "OrgLifecycleNotification",
+    "custom": false
+  },
+  {
+    "name": "OrgWideEmailAddress",
+    "custom": false
+  },
+  {
+    "name": "Organization",
+    "custom": false
+  },
+  {
+    "name": "OtherComponentTask",
+    "custom": false
+  },
+  {
+    "name": "OtherComponentTaskHistory",
+    "custom": false
+  },
+  {
+    "name": "OtherComponentTaskShare",
+    "custom": false
+  },
+  {
+    "name": "OutgoingEmail",
+    "custom": false
+  },
+  {
+    "name": "OutgoingEmailRelation",
+    "custom": false
+  },
+  {
+    "name": "OwnedContentDocument",
+    "custom": false
+  },
+  {
+    "name": "OwnerChangeOptionInfo",
+    "custom": false
+  },
+  {
+    "name": "PackageLicense",
+    "custom": false
+  },
+  {
+    "name": "Participant",
+    "custom": false
+  },
+  {
+    "name": "Partner",
+    "custom": false
+  },
+  {
+    "name": "PartnerRole",
+    "custom": false
+  },
+  {
+    "name": "PartyConsent",
+    "custom": false
+  },
+  {
+    "name": "PartyConsentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "PartyConsentHistory",
+    "custom": false
+  },
+  {
+    "name": "PartyConsentShare",
+    "custom": false
+  },
+  {
+    "name": "Payment",
+    "custom": false
+  },
+  {
+    "name": "PaymentAuthAdjustment",
+    "custom": false
+  },
+  {
+    "name": "PaymentAuthorization",
+    "custom": false
+  },
+  {
+    "name": "PaymentGateway",
+    "custom": false
+  },
+  {
+    "name": "PaymentGatewayLog",
+    "custom": false
+  },
+  {
+    "name": "PaymentGatewayProvider",
+    "custom": false
+  },
+  {
+    "name": "PaymentGroup",
+    "custom": false
+  },
+  {
+    "name": "PaymentLineInvoice",
+    "custom": false
+  },
+  {
+    "name": "PaymentMethod",
+    "custom": false
+  },
+  {
+    "name": "Period",
+    "custom": false
+  },
+  {
+    "name": "PermissionSet",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetAssignment",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetEvent",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetEventStore",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetGroup",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetGroupComponent",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetLicense",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetLicenseAssign",
+    "custom": false
+  },
+  {
+    "name": "PermissionSetTabSetting",
+    "custom": false
+  },
+  {
+    "name": "PicklistValueInfo",
+    "custom": false
+  },
+  {
+    "name": "PipelineInspectionListView",
+    "custom": false
+  },
+  {
+    "name": "PlatformAction",
+    "custom": false
+  },
+  {
+    "name": "PlatformCachePartition",
+    "custom": false
+  },
+  {
+    "name": "PlatformCachePartitionType",
+    "custom": false
+  },
+  {
+    "name": "PlatformEventUsageMetric",
+    "custom": false
+  },
+  {
+    "name": "PlatformStatusAlertEvent",
+    "custom": false
+  },
+  {
+    "name": "Pricebook2",
+    "custom": false
+  },
+  {
+    "name": "Pricebook2ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "Pricebook2History",
+    "custom": false
+  },
+  {
+    "name": "PricebookEntry",
+    "custom": false
+  },
+  {
+    "name": "PricebookEntryChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "PricebookEntryHistory",
+    "custom": false
+  },
+  {
+    "name": "PrivacyJobSession",
+    "custom": false
+  },
+  {
+    "name": "PrivacyJobSessionShare",
+    "custom": false
+  },
+  {
+    "name": "PrivacyObjectSession",
+    "custom": false
+  },
+  {
+    "name": "PrivacyObjectSessionShare",
+    "custom": false
+  },
+  {
+    "name": "PrivacyPolicy",
+    "custom": false
+  },
+  {
+    "name": "PrivacyPolicyDefinition",
+    "custom": false
+  },
+  {
+    "name": "PrivacyRTBFRequest",
+    "custom": false
+  },
+  {
+    "name": "PrivacyRTBFRequestHistory",
+    "custom": false
+  },
+  {
+    "name": "PrivacyRTBFRequestShare",
+    "custom": false
+  },
+  {
+    "name": "PrivacySessionRecordFailure",
+    "custom": false
+  },
+  {
+    "name": "PrivacySessionRecordFailureShare",
+    "custom": false
+  },
+  {
+    "name": "Problem",
+    "custom": false
+  },
+  {
+    "name": "ProblemChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ProblemHistory",
+    "custom": false
+  },
+  {
+    "name": "ProblemIncident",
+    "custom": false
+  },
+  {
+    "name": "ProblemIncidentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ProblemIncidentHistory",
+    "custom": false
+  },
+  {
+    "name": "ProblemRelatedItem",
+    "custom": false
+  },
+  {
+    "name": "ProblemRelatedItemChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ProblemRelatedItemHistory",
+    "custom": false
+  },
+  {
+    "name": "ProblemShare",
+    "custom": false
+  },
+  {
+    "name": "ProcessDefinition",
+    "custom": false
+  },
+  {
+    "name": "ProcessFlowMigration",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstance",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstanceChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstanceHistory",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstanceNode",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstanceStep",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstanceStepChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ProcessInstanceWorkitem",
+    "custom": false
+  },
+  {
+    "name": "ProcessNode",
+    "custom": false
+  },
+  {
+    "name": "Product2",
+    "custom": false
+  },
+  {
+    "name": "Product2ChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "Product2History",
+    "custom": false
+  },
+  {
+    "name": "ProductAvailabilityProjection",
+    "custom": false
+  },
+  {
+    "name": "ProductAvailabilityProjectionHistory",
+    "custom": false
+  },
+  {
+    "name": "ProductAvailabilityProjectionShare",
+    "custom": false
+  },
+  {
+    "name": "ProductConsumptionSchedule",
+    "custom": false
+  },
+  {
+    "name": "ProductEntitlementTemplate",
+    "custom": false
+  },
+  {
+    "name": "ProductFulfillmentLocation",
+    "custom": false
+  },
+  {
+    "name": "ProductFulfillmentLocationHistory",
+    "custom": false
+  },
+  {
+    "name": "ProductFulfillmentLocationShare",
+    "custom": false
+  },
+  {
+    "name": "ProductItem",
+    "custom": false
+  },
+  {
+    "name": "ProductItemChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ProductItemHistory",
+    "custom": false
+  },
+  {
+    "name": "ProductItemShare",
+    "custom": false
+  },
+  {
+    "name": "ProductItemTransaction",
+    "custom": false
+  },
+  {
+    "name": "ProductItemTransactionChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ProductItemTransactionHistory",
+    "custom": false
+  },
+  {
+    "name": "ProductRequired",
+    "custom": false
+  },
+  {
+    "name": "ProductRequiredChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ProductRequiredHistory",
+    "custom": false
+  },
+  {
+    "name": "ProductTransfer",
+    "custom": false
+  },
+  {
+    "name": "ProductTransferChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ProductTransferHistory",
+    "custom": false
+  },
+  {
+    "name": "ProductTransferShare",
+    "custom": false
+  },
+  {
+    "name": "Profile",
+    "custom": false
+  },
+  {
+    "name": "Prompt",
+    "custom": false
+  },
+  {
+    "name": "PromptAction",
+    "custom": false
+  },
+  {
+    "name": "PromptActionShare",
+    "custom": false
+  },
+  {
+    "name": "PromptError",
+    "custom": false
+  },
+  {
+    "name": "PromptErrorShare",
+    "custom": false
+  },
+  {
+    "name": "PromptVersion",
+    "custom": false
+  },
+  {
+    "name": "Publisher",
+    "custom": false
+  },
+  {
+    "name": "PushTopic",
+    "custom": false
+  },
+  {
+    "name": "PushUpgradeExcludedOrg",
+    "custom": false
+  },
+  {
+    "name": "QueueSobject",
+    "custom": false
+  },
+  {
+    "name": "QuickText",
+    "custom": false
+  },
+  {
+    "name": "QuickTextChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "QuickTextHistory",
+    "custom": false
+  },
+  {
+    "name": "QuickTextShare",
+    "custom": false
+  },
+  {
+    "name": "QuickTextUsage",
+    "custom": false
+  },
+  {
+    "name": "QuickTextUsageShare",
+    "custom": false
+  },
+  {
+    "name": "QuoteTemplateRichTextData",
+    "custom": false
+  },
+  {
+    "name": "RecAlrtDataSrcExpSetDef",
+    "custom": false
+  },
+  {
+    "name": "ReceivedDocument",
+    "custom": false
+  },
+  {
+    "name": "ReceivedDocumentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ReceivedDocumentHistory",
+    "custom": false
+  },
+  {
+    "name": "ReceivedDocumentShare",
+    "custom": false
+  },
+  {
+    "name": "ReceivedDocumentType",
+    "custom": false
+  },
+  {
+    "name": "ReceivedDocumentTypeChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ReceivedDocumentTypeHistory",
+    "custom": false
+  },
+  {
+    "name": "RecentlyViewed",
+    "custom": false
+  },
+  {
+    "name": "Recommendation",
+    "custom": false
+  },
+  {
+    "name": "RecommendationChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "RecommendationResponse",
+    "custom": false
+  },
+  {
+    "name": "RecordAction",
+    "custom": false
+  },
+  {
+    "name": "RecordActionHistory",
+    "custom": false
+  },
+  {
+    "name": "RecordAlert",
+    "custom": false
+  },
+  {
+    "name": "RecordAlertCategory",
+    "custom": false
+  },
+  {
+    "name": "RecordAlertDataSource",
+    "custom": false
+  },
+  {
+    "name": "RecordAlertHistory",
+    "custom": false
+  },
+  {
+    "name": "RecordAlertShare",
+    "custom": false
+  },
+  {
+    "name": "RecordAlertTemplate",
+    "custom": false
+  },
+  {
+    "name": "RecordType",
+    "custom": false
+  },
+  {
+    "name": "RecurrenceSchedule",
+    "custom": false
+  },
+  {
+    "name": "RecurrenceScheduleShare",
+    "custom": false
+  },
+  {
+    "name": "RedirectWhitelistUrl",
+    "custom": false
+  },
+  {
+    "name": "Refund",
+    "custom": false
+  },
+  {
+    "name": "RefundLinePayment",
+    "custom": false
+  },
+  {
+    "name": "RelatedListColumnDefinition",
+    "custom": false
+  },
+  {
+    "name": "RelatedListDefinition",
+    "custom": false
+  },
+  {
+    "name": "RelationshipDomain",
+    "custom": false
+  },
+  {
+    "name": "RelationshipInfo",
+    "custom": false
+  },
+  {
+    "name": "Report",
+    "custom": false
+  },
+  {
+    "name": "ReportAnomalyEvent",
+    "custom": false
+  },
+  {
+    "name": "ReportAnomalyEventStore",
+    "custom": false
+  },
+  {
+    "name": "ReportEvent",
+    "custom": false
+  },
+  {
+    "name": "ReportEventStream",
+    "custom": false
+  },
+  {
+    "name": "RevenueAsyncOperation",
+    "custom": false
+  },
+  {
+    "name": "RevenueTransactionErrorLog",
+    "custom": false
+  },
+  {
+    "name": "RevenueTransactionErrorLogShare",
+    "custom": false
+  },
+  {
+    "name": "SOSDeployment",
+    "custom": false
+  },
+  {
+    "name": "SOSSession",
+    "custom": false
+  },
+  {
+    "name": "SOSSessionActivity",
+    "custom": false
+  },
+  {
+    "name": "SOSSessionHistory",
+    "custom": false
+  },
+  {
+    "name": "SOSSessionShare",
+    "custom": false
+  },
+  {
+    "name": "SPSamlAttributes",
+    "custom": false
+  },
+  {
+    "name": "SamlSsoConfig",
+    "custom": false
+  },
+  {
+    "name": "Scontrol",
+    "custom": false
+  },
+  {
+    "name": "Scorecard",
+    "custom": false
+  },
+  {
+    "name": "ScorecardAssociation",
+    "custom": false
+  },
+  {
+    "name": "ScorecardMetric",
+    "custom": false
+  },
+  {
+    "name": "ScorecardShare",
+    "custom": false
+  },
+  {
+    "name": "SearchLayout",
+    "custom": false
+  },
+  {
+    "name": "SearchPromotionRule",
+    "custom": false
+  },
+  {
+    "name": "SecurityCustomBaseline",
+    "custom": false
+  },
+  {
+    "name": "Seller",
+    "custom": false
+  },
+  {
+    "name": "SellerHistory",
+    "custom": false
+  },
+  {
+    "name": "SellerShare",
+    "custom": false
+  },
+  {
+    "name": "ServiceContract",
+    "custom": false
+  },
+  {
+    "name": "ServiceContractChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ServiceContractHistory",
+    "custom": false
+  },
+  {
+    "name": "ServiceContractShare",
+    "custom": false
+  },
+  {
+    "name": "ServiceSetupProvisioning",
+    "custom": false
+  },
+  {
+    "name": "SessionHijackingEvent",
+    "custom": false
+  },
+  {
+    "name": "SessionHijackingEventStore",
+    "custom": false
+  },
+  {
+    "name": "SessionPermSetActivation",
+    "custom": false
+  },
+  {
+    "name": "SetupAssistantStep",
+    "custom": false
+  },
+  {
+    "name": "SetupAuditTrail",
+    "custom": false
+  },
+  {
+    "name": "SetupEntityAccess",
+    "custom": false
+  },
+  {
+    "name": "Shipment",
+    "custom": false
+  },
+  {
+    "name": "ShipmentChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "ShipmentHistory",
+    "custom": false
+  },
+  {
+    "name": "ShipmentItem",
+    "custom": false
+  },
+  {
+    "name": "ShipmentItemHistory",
+    "custom": false
+  },
+  {
+    "name": "ShipmentShare",
+    "custom": false
+  },
+  {
+    "name": "SignatureTask",
+    "custom": false
+  },
+  {
+    "name": "SignatureTaskHistory",
+    "custom": false
+  },
+  {
+    "name": "SignatureTaskLineItem",
+    "custom": false
+  },
+  {
+    "name": "SignatureTaskLineItemHistory",
+    "custom": false
+  },
+  {
+    "name": "Site",
+    "custom": false
+  },
+  {
+    "name": "SiteDetail",
+    "custom": false
+  },
+  {
+    "name": "SiteHistory",
+    "custom": false
+  },
+  {
+    "name": "SiteIframeWhiteListUrl",
+    "custom": false
+  },
+  {
+    "name": "SiteRedirectMapping",
+    "custom": false
+  },
+  {
+    "name": "SlaProcess",
+    "custom": false
+  },
+  {
+    "name": "Solution",
+    "custom": false
+  },
+  {
+    "name": "SolutionHistory",
+    "custom": false
+  },
+  {
+    "name": "SolutionStatus",
+    "custom": false
+  },
+  {
+    "name": "Stamp",
+    "custom": false
+  },
+  {
+    "name": "StampAssignment",
+    "custom": false
+  },
+  {
+    "name": "StaticResource",
+    "custom": false
+  },
+  {
+    "name": "StreamingChannel",
+    "custom": false
+  },
+  {
+    "name": "StreamingChannelShare",
+    "custom": false
+  },
+  {
+    "name": "SubscriberPackage",
+    "custom": false
+  },
+  {
+    "name": "SubscriberPackageVersion",
+    "custom": false
+  },
+  {
+    "name": "TabDefinition",
+    "custom": false
+  },
+  {
+    "name": "TableauHostMapping",
+    "custom": false
+  },
+  {
+    "name": "TableauHostMappingShare",
+    "custom": false
+  },
+  {
+    "name": "Task",
+    "custom": false
+  },
+  {
+    "name": "TaskChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "TaskPriority",
+    "custom": false
+  },
+  {
+    "name": "TaskStatus",
+    "custom": false
+  },
+  {
+    "name": "TenantUsageEntitlement",
+    "custom": false
+  },
+  {
+    "name": "TestSuiteMembership",
+    "custom": false
+  },
+  {
+    "name": "ThirdPartyAccountLink",
+    "custom": false
+  },
+  {
+    "name": "ThreatDetectionFeedback",
+    "custom": false
+  },
+  {
+    "name": "TimelineObjectDefinition",
+    "custom": false
+  },
+  {
+    "name": "TimelineObjectDefinitionChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "TodayGoal",
+    "custom": false
+  },
+  {
+    "name": "TodayGoalShare",
+    "custom": false
+  },
+  {
+    "name": "Topic",
+    "custom": false
+  },
+  {
+    "name": "TopicAssignment",
+    "custom": false
+  },
+  {
+    "name": "TransactionSecurityPolicy",
+    "custom": false
+  },
+  {
+    "name": "Translation",
+    "custom": false
+  },
+  {
+    "name": "UiFormulaCriterion",
+    "custom": false
+  },
+  {
+    "name": "UiFormulaRule",
+    "custom": false
+  },
+  {
+    "name": "UndecidedEventRelation",
+    "custom": false
+  },
+  {
+    "name": "UriEvent",
+    "custom": false
+  },
+  {
+    "name": "UriEventStream",
+    "custom": false
+  },
+  {
+    "name": "User",
+    "custom": false
+  },
+  {
+    "name": "UserAppInfo",
+    "custom": false
+  },
+  {
+    "name": "UserAppMenuCustomization",
+    "custom": false
+  },
+  {
+    "name": "UserAppMenuCustomizationShare",
+    "custom": false
+  },
+  {
+    "name": "UserAppMenuItem",
+    "custom": false
+  },
+  {
+    "name": "UserChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "UserDefinedLabel",
+    "custom": false
+  },
+  {
+    "name": "UserDefinedLabelAssignment",
+    "custom": false
+  },
+  {
+    "name": "UserDefinedLabelAssignmentShare",
+    "custom": false
+  },
+  {
+    "name": "UserDefinedLabelShare",
+    "custom": false
+  },
+  {
+    "name": "UserEmailPreferredPerson",
+    "custom": false
+  },
+  {
+    "name": "UserEmailPreferredPersonShare",
+    "custom": false
+  },
+  {
+    "name": "UserEntityAccess",
+    "custom": false
+  },
+  {
+    "name": "UserFieldAccess",
+    "custom": false
+  },
+  {
+    "name": "UserLicense",
+    "custom": false
+  },
+  {
+    "name": "UserListView",
+    "custom": false
+  },
+  {
+    "name": "UserListViewCriterion",
+    "custom": false
+  },
+  {
+    "name": "UserLogin",
+    "custom": false
+  },
+  {
+    "name": "UserPackageLicense",
+    "custom": false
+  },
+  {
+    "name": "UserPermissionAccess",
+    "custom": false
+  },
+  {
+    "name": "UserPreference",
+    "custom": false
+  },
+  {
+    "name": "UserPrioritizedRecord",
+    "custom": false
+  },
+  {
+    "name": "UserPrioritizedRecordShare",
+    "custom": false
+  },
+  {
+    "name": "UserProvAccount",
+    "custom": false
+  },
+  {
+    "name": "UserProvAccountStaging",
+    "custom": false
+  },
+  {
+    "name": "UserProvMockTarget",
+    "custom": false
+  },
+  {
+    "name": "UserProvisioningConfig",
+    "custom": false
+  },
+  {
+    "name": "UserProvisioningLog",
+    "custom": false
+  },
+  {
+    "name": "UserProvisioningRequest",
+    "custom": false
+  },
+  {
+    "name": "UserProvisioningRequestShare",
+    "custom": false
+  },
+  {
+    "name": "UserRecordAccess",
+    "custom": false
+  },
+  {
+    "name": "UserRole",
+    "custom": false
+  },
+  {
+    "name": "UserSetupEntityAccess",
+    "custom": false
+  },
+  {
+    "name": "UserShare",
+    "custom": false
+  },
+  {
+    "name": "VerificationHistory",
+    "custom": false
+  },
+  {
+    "name": "Visit",
+    "custom": false
+  },
+  {
+    "name": "VisitHistory",
+    "custom": false
+  },
+  {
+    "name": "VisitShare",
+    "custom": false
+  },
+  {
+    "name": "VisitedParty",
+    "custom": false
+  },
+  {
+    "name": "VisitedPartyHistory",
+    "custom": false
+  },
+  {
+    "name": "Visitor",
+    "custom": false
+  },
+  {
+    "name": "VisitorHistory",
+    "custom": false
+  },
+  {
+    "name": "VisualforceAccessMetrics",
+    "custom": false
+  },
+  {
+    "name": "Vote",
+    "custom": false
+  },
+  {
+    "name": "WaveAutoInstallRequest",
+    "custom": false
+  },
+  {
+    "name": "WaveCompatibilityCheckItem",
+    "custom": false
+  },
+  {
+    "name": "WebLink",
+    "custom": false
+  },
+  {
+    "name": "WorkOrder",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderHistory",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderLineItem",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderLineItemChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderLineItemHistory",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderLineItemStatus",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderShare",
+    "custom": false
+  },
+  {
+    "name": "WorkOrderStatus",
+    "custom": false
+  },
+  {
+    "name": "WorkPlan",
+    "custom": false
+  },
+  {
+    "name": "WorkPlanChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "WorkPlanHistory",
+    "custom": false
+  },
+  {
+    "name": "WorkPlanShare",
+    "custom": false
+  },
+  {
+    "name": "WorkPlanTemplate",
+    "custom": false
+  },
+  {
+    "name": "WorkPlanTemplateChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "WorkPlanTemplateEntry",
+    "custom": false
+  },
+  {
+    "name": "WorkPlanTemplateEntryChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "WorkPlanTemplateEntryHistory",
+    "custom": false
+  },
+  {
+    "name": "WorkPlanTemplateHistory",
+    "custom": false
+  },
+  {
+    "name": "WorkPlanTemplateShare",
+    "custom": false
+  },
+  {
+    "name": "WorkStep",
+    "custom": false
+  },
+  {
+    "name": "WorkStepChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "WorkStepHistory",
+    "custom": false
+  },
+  {
+    "name": "WorkStepStatus",
+    "custom": false
+  },
+  {
+    "name": "WorkStepTemplate",
+    "custom": false
+  },
+  {
+    "name": "WorkStepTemplateChangeEvent",
+    "custom": false
+  },
+  {
+    "name": "WorkStepTemplateHistory",
+    "custom": false
+  },
+  {
+    "name": "WorkStepTemplateShare",
+    "custom": false
+  }
+]

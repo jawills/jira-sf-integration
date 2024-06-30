@@ -1,0 +1,340 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Custom Brand Asset ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Custom Brand ID",
+      "name": "CustomBrandId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "CustomBrand"
+      ],
+      "relationshipName": "CustomBrand",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Asset Category",
+      "name": "AssetCategory",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zeronary motif color",
+          "validFor": null,
+          "value": "MotifZeronaryColor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Primary motif color",
+          "validFor": null,
+          "value": "MotifPrimaryColor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Secondary motif color",
+          "validFor": null,
+          "value": "MotifSecondaryColor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tertiary motif color",
+          "validFor": null,
+          "value": "MotifTertiaryColor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quaternary motif color",
+          "validFor": null,
+          "value": "MotifQuaternaryColor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zeronary motif colors complement color",
+          "validFor": null,
+          "value": "MotifZeronaryComplementColor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Primary motif colors complement color",
+          "validFor": null,
+          "value": "MotifPrimaryComplementColor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tertiary motif colors complement color",
+          "validFor": null,
+          "value": "MotifTertiaryComplementColor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quaternary motif colors complement color",
+          "validFor": null,
+          "value": "MotifQuaternaryComplementColor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Page Header",
+          "validFor": null,
+          "value": "PageHeader"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Page Footer",
+          "validFor": null,
+          "value": "PageFooter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Footer text displayed on the login page",
+          "validFor": null,
+          "value": "LoginFooterText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Logo image displayed on the login page",
+          "validFor": null,
+          "value": "LoginLogoImageId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Large logo image",
+          "validFor": null,
+          "value": "LargeLogoImageId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Medium logo image",
+          "validFor": null,
+          "value": "MediumLogoImageId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Small logo image",
+          "validFor": null,
+          "value": "SmallLogoImageId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Static logo image url",
+          "validFor": null,
+          "value": "StaticLogoImageUrl"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Login background color",
+          "validFor": null,
+          "value": "LoginQuaternaryColor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Login right frame url",
+          "validFor": null,
+          "value": "LoginRightFrameUrl"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Logo asset image",
+          "validFor": null,
+          "value": "LogoAssetId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Login primary color",
+          "validFor": null,
+          "value": "LoginPrimaryColor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Background image url",
+          "validFor": null,
+          "value": "LoginBackgroundImageUrl"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Large logo asset image",
+          "validFor": null,
+          "value": "LargeLogoAssetId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Medium logo asset image",
+          "validFor": null,
+          "value": "MediumLogoAssetId"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Text Asset",
+      "name": "TextAsset",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Asset source ID",
+      "name": "AssetSourceId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "ContentAsset",
+        "Document"
+      ],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    }
+  ],
+  "label": "Custom Brand Asset",
+  "childRelationships": [],
+  "custom": false,
+  "name": "CustomBrandAsset",
+  "queryable": true
+}

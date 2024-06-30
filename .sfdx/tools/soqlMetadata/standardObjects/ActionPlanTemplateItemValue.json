@@ -1,0 +1,947 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Action Plan Template Item Value ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Item Value Name",
+      "name": "Name",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Viewed Date",
+      "name": "LastViewedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Referenced Date",
+      "name": "LastReferencedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Action Plan Template Item ID",
+      "name": "ActionPlanTemplateItemId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "ActionPlanTemplateItem"
+      ],
+      "relationshipName": "ActionPlanTemplateItem",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Field Name",
+      "name": "ItemEntityFieldName",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Action Definition",
+          "validFor": null,
+          "value": "RecordAction.ActionDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Action Type",
+          "validFor": null,
+          "value": "RecordAction.ActionType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "All-Day Event",
+          "validFor": null,
+          "value": "Event.IsAllDayEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assessment Task Definition ID",
+          "validFor": null,
+          "value": "AssessmentTask.AssessmentTaskDefinitionId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assessment Task ID",
+          "validFor": null,
+          "value": "OtherComponentTask.ParentTaskId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assessment Task ID",
+          "validFor": null,
+          "value": "SignatureTask.ParentTaskId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assigned To ID",
+          "validFor": null,
+          "value": "Event.OwnerId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assigned To ID",
+          "validFor": null,
+          "value": "Task.OwnerId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Call Duration",
+          "validFor": null,
+          "value": "Task.CallDurationInSeconds"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Call Object Identifier",
+          "validFor": null,
+          "value": "Task.CallObject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Call Result",
+          "validFor": null,
+          "value": "Task.CallDisposition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Call Type",
+          "validFor": null,
+          "value": "Task.CallType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Create Recurring Series of Events",
+          "validFor": null,
+          "value": "Event.IsRecurrence"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Create Recurring Series of Tasks",
+          "validFor": null,
+          "value": "Task.IsRecurrence"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "AssessmentTask.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Event.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "OtherComponentTask.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "SignatureTask.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Task.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Due Date Only",
+          "validFor": null,
+          "value": "Event.ActivityDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Due Date Only",
+          "validFor": null,
+          "value": "Task.ActivityDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Due Date Time",
+          "validFor": null,
+          "value": "Event.ActivityDateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Duration",
+          "validFor": null,
+          "value": "Event.DurationInMinutes"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "End Date Time",
+          "validFor": null,
+          "value": "Event.EndDateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "End Time",
+          "validFor": null,
+          "value": "AssessmentTask.EndTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Event Subtype",
+          "validFor": null,
+          "value": "Event.EventSubtype"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "FlowInterview ID",
+          "validFor": null,
+          "value": "RecordAction.FlowInterviewId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Fully Qualified Name",
+          "validFor": null,
+          "value": "OtherComponentTask.FullyQualifiedName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hide Remove Action in UI",
+          "validFor": null,
+          "value": "RecordAction.IsUiRemoveHidden"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Interaction Definition ID",
+          "validFor": null,
+          "value": "RecordAction.FlowDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Is Mandatory",
+          "validFor": null,
+          "value": "RecordAction.IsMandatory"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Location",
+          "validFor": null,
+          "value": "Event.Location"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "AssessmentTask.Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "OtherComponentTask.Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "SignatureTask.Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name ID",
+          "validFor": null,
+          "value": "Event.WhoId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name ID",
+          "validFor": null,
+          "value": "Task.WhoId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Order",
+          "validFor": null,
+          "value": "RecordAction.Order"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner ID",
+          "validFor": null,
+          "value": "AssessmentTask.OwnerId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner ID",
+          "validFor": null,
+          "value": "OtherComponentTask.OwnerId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Parent Record ID",
+          "validFor": null,
+          "value": "RecordAction.RecordId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pinned",
+          "validFor": null,
+          "value": "RecordAction.Pinned"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Priority",
+          "validFor": null,
+          "value": "Task.Priority"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Private",
+          "validFor": null,
+          "value": "Event.IsPrivate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Day of Month",
+          "validFor": null,
+          "value": "Event.RecurrenceDayOfMonth"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Day of Month",
+          "validFor": null,
+          "value": "Task.RecurrenceDayOfMonth"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Day of Week Mask",
+          "validFor": null,
+          "value": "Event.RecurrenceDayOfWeekMask"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Day of Week Mask",
+          "validFor": null,
+          "value": "Task.RecurrenceDayOfWeekMask"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence End",
+          "validFor": null,
+          "value": "Event.RecurrenceEndDateOnly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence End",
+          "validFor": null,
+          "value": "Task.RecurrenceEndDateOnly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Instance",
+          "validFor": null,
+          "value": "Event.RecurrenceInstance"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Instance",
+          "validFor": null,
+          "value": "Task.RecurrenceInstance"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Interval",
+          "validFor": null,
+          "value": "Event.RecurrenceInterval"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Interval",
+          "validFor": null,
+          "value": "Task.RecurrenceInterval"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Month of Year",
+          "validFor": null,
+          "value": "Event.RecurrenceMonthOfYear"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Month of Year",
+          "validFor": null,
+          "value": "Task.RecurrenceMonthOfYear"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Pattern",
+          "validFor": null,
+          "value": "Event.Recurrence2PatternText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Start",
+          "validFor": null,
+          "value": "Event.RecurrenceStartDateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Start",
+          "validFor": null,
+          "value": "Task.RecurrenceStartDateOnly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Time Zone",
+          "validFor": null,
+          "value": "Event.RecurrenceTimeZoneSidKey"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Time Zone",
+          "validFor": null,
+          "value": "Task.RecurrenceTimeZoneSidKey"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Type",
+          "validFor": null,
+          "value": "Event.RecurrenceType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recurrence Type",
+          "validFor": null,
+          "value": "Task.RecurrenceType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related To ID",
+          "validFor": null,
+          "value": "Event.WhatId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related To ID",
+          "validFor": null,
+          "value": "Task.WhatId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reminder Date/Time",
+          "validFor": null,
+          "value": "Event.ReminderDateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reminder Date/Time",
+          "validFor": null,
+          "value": "Task.ReminderDateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reminder Set",
+          "validFor": null,
+          "value": "Event.IsReminderSet"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reminder Set",
+          "validFor": null,
+          "value": "Task.IsReminderSet"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Repeat This Task",
+          "validFor": null,
+          "value": "Task.RecurrenceRegeneratedType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Required",
+          "validFor": null,
+          "value": "AssessmentTask.IsRequired"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sequence",
+          "validFor": null,
+          "value": "AssessmentTask.SequenceNumber"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Show Time As",
+          "validFor": null,
+          "value": "Event.ShowAs"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Start Date Time",
+          "validFor": null,
+          "value": "Event.StartDateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Start Time",
+          "validFor": null,
+          "value": "AssessmentTask.StartTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
+          "value": "AssessmentTask.Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
+          "value": "RecordAction.Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
+          "value": "Task.Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Event.Subject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Task.Subject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TaskDefinition ID",
+          "validFor": null,
+          "value": "AssessmentTask.TaskDefinitionId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Task Subtype",
+          "validFor": null,
+          "value": "Task.TaskSubtype"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Task Type",
+          "validFor": null,
+          "value": "AssessmentTask.TaskType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Visit ID",
+          "validFor": null,
+          "value": "AssessmentTask.ParentId"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Field Value - Static",
+      "name": "ValueLiteral",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Field Value - Dynamic",
+      "name": "ValueFormula",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Is Active",
+      "name": "IsActive",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Item Entity Type",
+      "name": "ItemEntityType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assessment Task",
+          "validFor": null,
+          "value": "AssessmentTask"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Document Checklist Item",
+          "validFor": null,
+          "value": "DocumentChecklistItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Event",
+          "validFor": null,
+          "value": "Event"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Other Component Task",
+          "validFor": null,
+          "value": "OtherComponentTask"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "RecordAction",
+          "validFor": null,
+          "value": "RecordAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Signature Task",
+          "validFor": null,
+          "value": "SignatureTask"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Task",
+          "validFor": null,
+          "value": "Task"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    }
+  ],
+  "label": "Action Plan Template Item Value",
+  "childRelationships": [
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowExecutionErrorEvent",
+      "deprecatedAndHidden": false,
+      "field": "ContextRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    }
+  ],
+  "custom": false,
+  "name": "ActionPlanTemplateItemValue",
+  "queryable": true
+}

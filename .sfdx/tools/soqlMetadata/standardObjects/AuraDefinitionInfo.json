@@ -1,0 +1,330 @@
+{
+  "fields": [
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Lightning Definition ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Durable ID",
+      "name": "DurableId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Lightning Definition Bundle ID",
+      "name": "AuraDefinitionBundleInfoId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "AuraDefinitionBundleInfo"
+      ],
+      "relationshipName": "AuraDefinitionBundleInfo",
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Lightning Definition ID",
+      "name": "AuraDefinitionId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Definition Type",
+      "name": "DefType",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "0",
+          "validFor": null,
+          "value": "APPLICATION"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "1",
+          "validFor": null,
+          "value": "CONTROLLER"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "2",
+          "validFor": null,
+          "value": "COMPONENT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "3",
+          "validFor": null,
+          "value": "EVENT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "4",
+          "validFor": null,
+          "value": "HELPER"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "5",
+          "validFor": null,
+          "value": "INTERFACE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "7",
+          "validFor": null,
+          "value": "RENDERER"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "8",
+          "validFor": null,
+          "value": "STYLE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "9",
+          "validFor": null,
+          "value": "PROVIDER"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "10",
+          "validFor": null,
+          "value": "MODEL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "11",
+          "validFor": null,
+          "value": "TESTSUITE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "12",
+          "validFor": null,
+          "value": "DOCUMENTATION"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "13",
+          "validFor": null,
+          "value": "TOKENS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "14",
+          "validFor": null,
+          "value": "DESIGN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "15",
+          "validFor": null,
+          "value": "SVG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "16",
+          "validFor": null,
+          "value": "MODULE"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Format",
+      "name": "Format",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "XML",
+          "validFor": null,
+          "value": "XML"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "JS",
+          "validFor": null,
+          "value": "JS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CSS",
+          "validFor": null,
+          "value": "CSS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TEMPLATE_CSS",
+          "validFor": null,
+          "value": "TEMPLATE_CSS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SVG",
+          "validFor": null,
+          "value": "SVG"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Source",
+      "name": "Source",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Bundle Name",
+      "name": "DeveloperName",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Namespace Prefix",
+      "name": "NamespacePrefix",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    }
+  ],
+  "label": "AuraDefinition Info",
+  "childRelationships": [],
+  "custom": false,
+  "name": "AuraDefinitionInfo",
+  "queryable": true
+}

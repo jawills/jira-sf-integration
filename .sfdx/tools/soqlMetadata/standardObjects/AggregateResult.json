@@ -1,0 +1,26 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Aggregate Result ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    }
+  ],
+  "label": "Aggregate Result",
+  "childRelationships": [],
+  "custom": false,
+  "name": "AggregateResult",
+  "queryable": false
+}

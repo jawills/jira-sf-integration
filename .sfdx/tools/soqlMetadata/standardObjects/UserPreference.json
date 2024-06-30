@@ -1,0 +1,258 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User Preference ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User ID",
+      "name": "UserId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": "93",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Preference",
+      "name": "Preference",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Event Reminder Default Lead Time",
+          "validFor": null,
+          "value": "57"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Task Reminder Default Time",
+          "validFor": null,
+          "value": "58"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Prevent Logs on Load",
+          "validFor": null,
+          "value": "91"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Autocomplete Apex After Key Press",
+          "validFor": null,
+          "value": "92"
+        },
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "Visualforce Viewstate Inspector",
+          "validFor": null,
+          "value": "93"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Forecasting Displayed Type",
+          "validFor": null,
+          "value": "94"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Editor Theme",
+          "validFor": null,
+          "value": "96"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Editor Font Size",
+          "validFor": null,
+          "value": "97"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pinned Folders",
+          "validFor": null,
+          "value": "98"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Enable Query Plan",
+          "validFor": null,
+          "value": "99"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Enable New Open Dialog",
+          "validFor": null,
+          "value": "100"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Transport Type",
+          "validFor": null,
+          "value": "101"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pinned Wave Folders",
+          "validFor": null,
+          "value": "102"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Density",
+          "validFor": null,
+          "value": "108"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lightning Flow Builder preferences",
+          "validFor": null,
+          "value": "109"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Format With Tabs",
+          "validFor": null,
+          "value": "111"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Format Tab Width",
+          "validFor": null,
+          "value": "112"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Format Print Width",
+          "validFor": null,
+          "value": "113"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record Page Activities Display",
+          "validFor": null,
+          "value": "114"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lightning Flow Explorer preferences",
+          "validFor": null,
+          "value": "118"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Migrate to Flow preferences",
+          "validFor": null,
+          "value": "119"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Simple Auth Option preferences",
+          "validFor": null,
+          "value": "120"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sales Alert Notifications Snooze Time",
+          "validFor": null,
+          "value": "122"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Value",
+      "name": "Value",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    }
+  ],
+  "label": "User Preference",
+  "childRelationships": [],
+  "custom": false,
+  "name": "UserPreference",
+  "queryable": true
+}

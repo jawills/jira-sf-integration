@@ -1,0 +1,555 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Pipeline Inspection List View ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "List View ID",
+      "name": "ListViewId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "ListView"
+      ],
+      "relationshipName": "ListView",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Date Literal Type",
+      "name": "DateLiteralType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "This Week",
+          "validFor": null,
+          "value": "THIS_WEEK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "This Month",
+          "validFor": null,
+          "value": "THIS_MONTH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "THIS_FISCAL_QUARTER",
+          "validFor": null,
+          "value": "THIS_FISCAL_QUARTER"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Next Week",
+          "validFor": null,
+          "value": "NEXT_WEEK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Next Month",
+          "validFor": null,
+          "value": "NEXT_MONTH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NEXT_FISCAL_QUARTER",
+          "validFor": null,
+          "value": "NEXT_FISCAL_QUARTER"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ALL_TIME",
+          "validFor": null,
+          "value": "ALL_TIME"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "LAST_MONTH",
+          "validFor": null,
+          "value": "LAST_MONTH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "LAST_90_DAYS",
+          "validFor": null,
+          "value": "LAST_90_DAYS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "LAST_180_DAYS",
+          "validFor": null,
+          "value": "LAST_180_DAYS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "LAST_365_DAYS",
+          "validFor": null,
+          "value": "LAST_365_DAYS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DATE_NONE",
+          "validFor": null,
+          "value": "DATE_NONE"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Start Date",
+      "name": "StartDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "End Date",
+      "name": "EndDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "System Managed",
+      "name": "IsSystemManaged",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "View Type",
+      "name": "ViewType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "My Pipeline",
+          "validFor": null,
+          "value": "MY_PIPELINE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "My Important Opportunities",
+          "validFor": null,
+          "value": "MY_IMPORTANT_OPPORTUNITIES"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "My Leads",
+          "validFor": null,
+          "value": "MY_LEADS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "My Important Leads",
+          "validFor": null,
+          "value": "MY_IMPORTANT_LEADS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "My Contacts",
+          "validFor": null,
+          "value": "MY_CONTACTS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "My Important Contacts",
+          "validFor": null,
+          "value": "MY_IMPORTANT_CONTACTS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "My Accounts",
+          "validFor": null,
+          "value": "MY_ACCOUNTS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "My Important Accounts",
+          "validFor": null,
+          "value": "MY_IMPORTANT_ACCOUNTS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Prospecting Center",
+          "validFor": null,
+          "value": "MY_PROSPECTING_CENTER_ACCOUNTS"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Custom Field Definition ID",
+      "name": "SummaryField",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Amount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ExpectedRevenue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TotalOpportunityQuantity"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Change Period Literal Type",
+      "name": "ChangePeriodLiteralType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Start of the Period",
+          "validFor": null,
+          "value": "START_OF_THE_PERIOD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "This Week",
+          "validFor": null,
+          "value": "THIS_WEEK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "1 Week Ago",
+          "validFor": null,
+          "value": "ONE_WEEK_AGO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "2 Weeks Ago",
+          "validFor": null,
+          "value": "TWO_WEEKS_AGO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "3 Weeks Ago",
+          "validFor": null,
+          "value": "THREE_WEEKS_AGO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "4 Weeks Ago",
+          "validFor": null,
+          "value": "FOUR_WEEKS_AGO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "This Month",
+          "validFor": null,
+          "value": "THIS_MONTH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "1 Month Ago",
+          "validFor": null,
+          "value": "ONE_MONTH_AGO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "2 Months Ago",
+          "validFor": null,
+          "value": "TWO_MONTHS_AGO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "3 Months Ago",
+          "validFor": null,
+          "value": "THREE_MONTHS_AGO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CUSTOM_DATE",
+          "validFor": null,
+          "value": "CUSTOM_DATE"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Change Period Start Date",
+      "name": "ChangePeriodStartDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "User ID",
+      "name": "UserId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "User",
+      "sortable": true,
+      "type": "reference"
+    }
+  ],
+  "label": "Pipeline Inspection List View",
+  "childRelationships": [],
+  "custom": false,
+  "name": "PipelineInspectionListView",
+  "queryable": true
+}

@@ -1,0 +1,388 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Batch Data Source Filter Criteria ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Batch Data Source ID",
+      "name": "BatchDataSourceId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "BatchDataSource"
+      ],
+      "relationshipName": "BatchDataSource",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Field Name",
+      "name": "FieldName",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Field Value",
+      "name": "FieldValue",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Operator",
+      "name": "Operator",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Equals",
+          "validFor": null,
+          "value": "equals"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Not Equals",
+          "validFor": null,
+          "value": "notEquals"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Less Than",
+          "validFor": null,
+          "value": "lessThan"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Less Than Or Equal To",
+          "validFor": null,
+          "value": "lessThanOrEqualTo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Greater Than",
+          "validFor": null,
+          "value": "greaterThan"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Greater Than Or Equal To",
+          "validFor": null,
+          "value": "greaterThanOrEqualTo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Like",
+          "validFor": null,
+          "value": "like"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "In",
+          "validFor": null,
+          "value": "in"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Not In",
+          "validFor": null,
+          "value": "notIn"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Includes",
+          "validFor": null,
+          "value": "includes"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Excludes",
+          "validFor": null,
+          "value": "excludes"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Filter Criteria Sequence",
+      "name": "FilterCriteriaSequence",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Is Dynamic Value",
+      "name": "IsDynamicValue",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Dynamic Value Type",
+      "name": "DynamicValueType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "integer",
+          "validFor": null,
+          "value": "integer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "date",
+          "validFor": null,
+          "value": "date"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "datetime",
+          "validFor": null,
+          "value": "datetime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "string",
+          "validFor": null,
+          "value": "string"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "picklist",
+          "validFor": null,
+          "value": "picklist"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "currency",
+          "validFor": null,
+          "value": "currency"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "boolean",
+          "validFor": null,
+          "value": "boolean"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "reference",
+          "validFor": null,
+          "value": "reference"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    }
+  ],
+  "label": "Batch Data Source Filter Criteria",
+  "childRelationships": [],
+  "custom": false,
+  "name": "BatchDataSrcFilterCriteria",
+  "queryable": true
+}
