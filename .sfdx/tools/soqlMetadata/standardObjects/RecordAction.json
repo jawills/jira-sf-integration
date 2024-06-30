@@ -632,6 +632,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "QuickActionDefinition.Account.Create_Project"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.Account.Push_Project_to_JIRA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "QuickActionDefinition.Case._LightningUpdateCase"
         },
         {

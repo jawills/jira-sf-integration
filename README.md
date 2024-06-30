@@ -2,11 +2,13 @@
 
 ## Todo
 
-- [ ] Authenticate with Jira and Salesforce
-- [ ] Create Project from an account
-- [ ] Implement GET `
+- [x] Authenticate with Jira and Salesforce
+- [x] Create Project from an account
+- [x] Implement GET `
 /rest/api/3/project/{projectIdOrKey}`
-- [ ] POST `/rest/api/3/project`
+- [x] POST `/rest/api/3/project`
+- [x] Create project creation wizard
+- [ ] Get user Id (unhardcode)
 - [ ] Create a fix version from opportunity
 - [ ] Create cases? from issues
 - [ ] Sync work logs from Jira -> SF

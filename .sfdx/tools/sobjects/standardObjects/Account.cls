@@ -80,6 +80,8 @@ global class Account {
     global String JIRA_Project_Id__c;
     global String JIRA_Project_Key__c;
     global String Jira_Error__c;
+    global String JIRA_Project_URL__c;
+    global String JIRA_Project_Name__c;
     global List<Account> ChildAccounts;
     global List<AccountContactRole> AccountContactRoles;
     global List<AccountHistory> Histories;

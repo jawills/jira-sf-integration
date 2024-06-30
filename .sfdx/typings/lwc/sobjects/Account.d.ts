@@ -290,3 +290,11 @@ declare module "@salesforce/schema/Account.Jira_Error__c" {
   const Jira_Error__c:string;
   export default Jira_Error__c;
 }
+declare module "@salesforce/schema/Account.JIRA_Project_URL__c" {
+  const JIRA_Project_URL__c:string;
+  export default JIRA_Project_URL__c;
+}
+declare module "@salesforce/schema/Account.JIRA_Project_Name__c" {
+  const JIRA_Project_Name__c:string;
+  export default JIRA_Project_Name__c;
+}

@@ -2224,14 +2224,14 @@
           "defaultValue": false,
           "label": "Title",
           "validFor": null,
-          "value": "Field.Contact.Title.begin"
+          "value": "Field.Note.Title"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Title",
           "validFor": null,
-          "value": "Field.Note.Title"
+          "value": "Field.Contact.Title.begin"
         },
         {
           "active": true,

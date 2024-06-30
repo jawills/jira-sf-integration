@@ -10,6 +10,7 @@ public with sharing class JiraCallout {
         HttpRequest req = new HttpRequest();
         if(body != null){
             req.setBody(body);
+            System.debug(body);
             // req.setHeader('Accept', 'application/json');
             req.setHeader('Content-Type', 'application/json');
 
@@ -38,7 +39,7 @@ public with sharing class JiraCallout {
     }
 
     /**     
-     * @param projectId Jira project Id
+     * @param projectId Jira project Id or project key
      * @param body Request body for /project endpoint
      */
     public static HttpResponse updateProject(String projectId, String body){

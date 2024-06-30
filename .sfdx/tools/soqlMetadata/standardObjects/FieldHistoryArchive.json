@@ -3627,6 +3627,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "JIRA Project Name",
+          "validFor": null,
+          "value": "Account.JIRA_Project_Name__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Job Record",
           "validFor": null,
           "value": "JobRecord"

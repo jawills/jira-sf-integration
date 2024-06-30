@@ -519,6 +519,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "JIRA_Project_Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Languages"
         },
         {

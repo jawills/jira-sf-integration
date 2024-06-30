@@ -11200,6 +11200,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Account.JIRA_Project_Name__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Account.JIRA_Project_URL__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Jigsaw"
         },
         {
