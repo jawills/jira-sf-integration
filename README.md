@@ -12,7 +12,10 @@
 - [x] Create project creation wizard
 - [x] Get user Id (unhardcode)
 - [x] Create a fix version from opportunity
-- [ ] Sync issues from jira to SF
-- [ ] Sync work logs from Jira -> SF
+- [x] Sync issues from jira to SF
+- [x] Sync work logs from Jira -> SF
+- [ ] Add issue one time sync
+- [ ] Fix JSON Parse error
+- [ ] Add issue nightly sync
 - [ ] Distribute via unlocked packages
 - [ ] Write Documentation on how to use project
