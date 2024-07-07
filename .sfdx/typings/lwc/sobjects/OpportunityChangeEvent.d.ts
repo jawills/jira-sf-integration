@@ -182,3 +182,15 @@ declare module "@salesforce/schema/OpportunityChangeEvent.MainCompetitors__c" {
   const MainCompetitors__c:string;
   export default MainCompetitors__c;
 }
+declare module "@salesforce/schema/OpportunityChangeEvent.JIRA_Version_Id__c" {
+  const JIRA_Version_Id__c:string;
+  export default JIRA_Version_Id__c;
+}
+declare module "@salesforce/schema/OpportunityChangeEvent.JIRA_Project_Id__c" {
+  const JIRA_Project_Id__c:string;
+  export default JIRA_Project_Id__c;
+}
+declare module "@salesforce/schema/OpportunityChangeEvent.JIRA_Fix_Version_Name__c" {
+  const JIRA_Fix_Version_Name__c:string;
+  export default JIRA_Fix_Version_Name__c;
+}

@@ -218,3 +218,15 @@ declare module "@salesforce/schema/Opportunity.MainCompetitors__c" {
   const MainCompetitors__c:string;
   export default MainCompetitors__c;
 }
+declare module "@salesforce/schema/Opportunity.JIRA_Version_Id__c" {
+  const JIRA_Version_Id__c:string;
+  export default JIRA_Version_Id__c;
+}
+declare module "@salesforce/schema/Opportunity.JIRA_Project_Id__c" {
+  const JIRA_Project_Id__c:string;
+  export default JIRA_Project_Id__c;
+}
+declare module "@salesforce/schema/Opportunity.JIRA_Fix_Version_Name__c" {
+  const JIRA_Fix_Version_Name__c:string;
+  export default JIRA_Fix_Version_Name__c;
+}

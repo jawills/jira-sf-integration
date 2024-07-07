@@ -13062,6 +13062,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Opportunity.JIRA_Fix_Version_Name__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Opportunity.JIRA_Project_Id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Opportunity.JIRA_Version_Id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "LastActivityDate"
         },
         {

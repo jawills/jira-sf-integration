@@ -1,5 +1,7 @@
 # Salesforce Jira Integration
 
+## Features
+
 ## Todo
 
 - [x] Authenticate with Jira and Salesforce
@@ -9,7 +11,7 @@
 - [x] POST `/rest/api/3/project`
 - [x] Create project creation wizard
 - [x] Get user Id (unhardcode)
-- [ ] Create a fix version from opportunity
-- [ ] Create cases? from issues
+- [x] Create a fix version from opportunity
 - [ ] Sync work logs from Jira -> SF
 - [ ] Distribute via unlocked packages
+- [ ] Write Documentation on how to use project

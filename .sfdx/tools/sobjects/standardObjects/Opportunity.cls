@@ -62,6 +62,9 @@ global class Opportunity {
     global String OrderNumber__c;
     global String CurrentGenerators__c;
     global String MainCompetitors__c;
+    global String JIRA_Version_Id__c;
+    global String JIRA_Project_Id__c;
+    global String JIRA_Fix_Version_Name__c;
     global List<AccountPartner> AccountPartners;
     global List<ActionPlan> ActionPlans;
     global List<ActivityHistory> ActivityHistories;

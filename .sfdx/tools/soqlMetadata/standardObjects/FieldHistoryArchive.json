@@ -3627,6 +3627,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "JIRA Fix Version Name",
+          "validFor": null,
+          "value": "Opportunity.JIRA_Fix_Version_Name__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "JIRA Project Id",
           "validFor": null,
           "value": "Account.JIRA_Project_Id__c"
@@ -3651,6 +3658,13 @@
           "label": "JIRA Project Name",
           "validFor": null,
           "value": "Account.JIRA_Project_Name__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "JIRA Version Id",
+          "validFor": null,
+          "value": "Opportunity.JIRA_Version_Id__c"
         },
         {
           "active": true,
