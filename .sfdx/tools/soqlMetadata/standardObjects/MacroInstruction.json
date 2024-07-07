@@ -1447,14 +1447,14 @@
           "defaultValue": false,
           "label": "Description",
           "validFor": null,
-          "value": "Field.Incident.Description.end"
+          "value": "Field.ChangeRequest.Description.end"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Description",
           "validFor": null,
-          "value": "Field.ChangeRequest.Description.end"
+          "value": "Field.Incident.Description.end"
         },
         {
           "active": true,

@@ -758,6 +758,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "QuickActionDefinition.Opportunity.Create_JIRA_Version"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "QuickActionDefinition.Problem._LightningUpdateProblem"
         },
         {

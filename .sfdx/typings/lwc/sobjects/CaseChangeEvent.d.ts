@@ -150,3 +150,19 @@ declare module "@salesforce/schema/CaseChangeEvent.PotentialLiability__c" {
   const PotentialLiability__c:string;
   export default PotentialLiability__c;
 }
+declare module "@salesforce/schema/CaseChangeEvent.JIRA_Key__c" {
+  const JIRA_Key__c:string;
+  export default JIRA_Key__c;
+}
+declare module "@salesforce/schema/CaseChangeEvent.JIRA_Issue_Id__c" {
+  const JIRA_Issue_Id__c:string;
+  export default JIRA_Issue_Id__c;
+}
+declare module "@salesforce/schema/CaseChangeEvent.Time_Spent__c" {
+  const Time_Spent__c:number;
+  export default Time_Spent__c;
+}
+declare module "@salesforce/schema/CaseChangeEvent.Opportunity__c" {
+  const Opportunity__c:any;
+  export default Opportunity__c;
+}

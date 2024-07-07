@@ -3193,6 +3193,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Case.JIRA_Issue_Id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Case.JIRA_Key__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Case.MilestoneStatus"
         },
         {
@@ -3201,6 +3215,13 @@
           "label": null,
           "validFor": null,
           "value": "Case.MilestoneStatusIcon"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Case.Opportunity__c"
         },
         {
           "active": true,
@@ -3355,6 +3376,13 @@
           "label": null,
           "validFor": null,
           "value": "Case.SuppliedPhone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Case.Time_Spent__c"
         },
         {
           "active": true,

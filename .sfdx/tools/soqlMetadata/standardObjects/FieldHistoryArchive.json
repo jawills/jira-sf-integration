@@ -3634,6 +3634,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "JIRA Issue Id",
+          "validFor": null,
+          "value": "Case.JIRA_Issue_Id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "JIRA Key",
+          "validFor": null,
+          "value": "Case.JIRA_Key__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "JIRA Project Id",
           "validFor": null,
           "value": "Account.JIRA_Project_Id__c"
@@ -4421,6 +4435,13 @@
           "label": "Open Date",
           "validFor": null,
           "value": "OpenDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Opportunity",
+          "validFor": null,
+          "value": "Case.Opportunity__c"
         },
         {
           "active": true,
@@ -7025,6 +7046,13 @@
           "label": "Time",
           "validFor": null,
           "value": "ActivityDateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Time Spent (Seconds)",
+          "validFor": null,
+          "value": "Case.Time_Spent__c"
         },
         {
           "active": true,

@@ -72,6 +72,7 @@ global class Opportunity {
     global List<AssessmentTaskContentDocument> ContentDocumentContext;
     global List<AttachedContentDocument> AttachedContentDocuments;
     global List<Attachment> Attachments;
+    global List<Case> Cases__r;
     global List<CombinedAttachment> CombinedAttachments;
     global List<ContactRequest> ContactRequests;
     global List<ContentDocumentLink> ContentDocumentLinks;

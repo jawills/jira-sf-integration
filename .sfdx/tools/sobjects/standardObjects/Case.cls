@@ -54,6 +54,11 @@ global class Case {
     global String SLAViolation__c;
     global String Product__c;
     global String PotentialLiability__c;
+    global String JIRA_Key__c;
+    global String JIRA_Issue_Id__c;
+    global Double Time_Spent__c;
+    global Opportunity Opportunity__r;
+    global Id Opportunity__c;
     global List<ActionPlan> ActionPlans;
     global List<ActivityHistory> ActivityHistories;
     global List<AdvAcctForecastSetUse> AdvAcctForecastSetUseForecastContext;
