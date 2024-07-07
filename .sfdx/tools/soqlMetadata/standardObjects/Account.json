@@ -1790,6 +1790,25 @@
       "relationshipName": null,
       "sortable": true,
       "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "JIRA Project Lead",
+      "name": "JIRA_Project_Lead__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "JIRA_Project_Lead__r",
+      "sortable": true,
+      "type": "reference"
     }
   ],
   "label": "Account",

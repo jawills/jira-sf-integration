@@ -75,6 +75,8 @@ global class Contact {
     global Boolean IsPriorityRecord;
     global String Level__c;
     global String Languages__c;
+    global String Bubble_Id__c;
+    global Datetime Bubble_Created_Date__c;
     global List<AcceptedEventRelation> AcceptedEventRelations;
     global List<AccountContactRole> AccountContactRoles;
     global List<ActionPlan> ActionPlans;

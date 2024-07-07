@@ -318,6 +318,7 @@
         "CreditMemoLine",
         "Customer",
         "DandBCompany",
+        "DataKitDeploymentLog",
         "DataUseLegalBasis",
         "DataUsePurpose",
         "DigitalSignature",

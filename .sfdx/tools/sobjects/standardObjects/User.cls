@@ -177,7 +177,9 @@ global class User {
     global Boolean IsProfilePhotoActive;
     global Individual Individual;
     global Id IndividualId;
+    global String JIRA_User_Id__c;
     global List<AcceptedEventRelation> AcceptedEventRelations;
+    global List<Account> Accounts__r;
     global List<AdvAcctForecastFactAdj> AdvAcctForecastFactAdjustments;
     global List<AttachedContentDocument> AttachedContentDocuments;
     global List<AuditTrailFileExport> FileDeletedBy;
@@ -833,6 +835,11 @@ global class User {
     global List<DataAssessmentMetric> LastModifiedBy;
     global List<DataAssessmentValueMetric> CreatedBy;
     global List<DataAssessmentValueMetric> LastModifiedBy;
+    global List<DataKitDeploymentLog> CreatedBy;
+    global List<DataKitDeploymentLog> LastModifiedBy;
+    global List<DataKitDeploymentLog> Owner;
+    global List<DataKitDeploymentLogShare> LastModifiedBy;
+    global List<DataKitDeploymentLogShare> UserOrGroup;
     global List<DataObjectDataChgEvent> CreatedBy;
     global List<DataStatistics> User;
     global List<DataUseLegalBasis> CreatedBy;

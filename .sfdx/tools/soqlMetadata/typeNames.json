@@ -1412,6 +1412,14 @@
     "custom": false
   },
   {
+    "name": "DataKitDeploymentLog",
+    "custom": false
+  },
+  {
+    "name": "DataKitDeploymentLogShare",
+    "custom": false
+  },
+  {
     "name": "DataObjectDataChgEvent",
     "custom": false
   },

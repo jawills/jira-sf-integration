@@ -8,7 +8,7 @@
 /rest/api/3/project/{projectIdOrKey}`
 - [x] POST `/rest/api/3/project`
 - [x] Create project creation wizard
-- [ ] Get user Id (unhardcode)
+- [x] Get user Id (unhardcode)
 - [ ] Create a fix version from opportunity
 - [ ] Create cases? from issues
 - [ ] Sync work logs from Jira -> SF

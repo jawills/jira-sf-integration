@@ -550,6 +550,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "DataKitDeploymentLog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "DataUseLegalBasis"
         },
         {
@@ -1514,6 +1521,13 @@
           "label": null,
           "validFor": null,
           "value": "Account.JIRA_Project_Key__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Account.JIRA_Project_Lead__c"
         },
         {
           "active": true,
@@ -3593,6 +3607,20 @@
           "label": null,
           "validFor": null,
           "value": "Contact.Birthdate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Contact.Bubble_Created_Date__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Contact.Bubble_Id__c"
         },
         {
           "active": true,
@@ -8409,6 +8437,13 @@
           "label": null,
           "validFor": null,
           "value": "Task.WhoId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "User.JIRA_User_Id__c"
         },
         {
           "active": true,

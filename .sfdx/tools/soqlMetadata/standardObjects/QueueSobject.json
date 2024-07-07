@@ -277,6 +277,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "DataKitDeploymentLog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "DataUseLegalBasis"
         },
         {

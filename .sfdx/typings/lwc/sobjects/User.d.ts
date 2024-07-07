@@ -678,3 +678,7 @@ declare module "@salesforce/schema/User.IndividualId" {
   const IndividualId:any;
   export default IndividualId;
 }
+declare module "@salesforce/schema/User.JIRA_User_Id__c" {
+  const JIRA_User_Id__c:string;
+  export default JIRA_User_Id__c;
+}

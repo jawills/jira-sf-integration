@@ -5183,6 +5183,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "DataKitDeploymentLog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "RecordActnSelItemExtrc"
         },
         {
@@ -11200,6 +11207,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Account.JIRA_Project_Lead__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Account.JIRA_Project_Name__c"
         },
         {
@@ -11663,6 +11677,20 @@
           "label": null,
           "validFor": null,
           "value": "Birthdate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Contact.Bubble_Created_Date__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Contact.Bubble_Id__c"
         },
         {
           "active": true,
@@ -28687,6 +28715,13 @@
           "label": null,
           "validFor": null,
           "value": "IsSystemControlled"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "User.JIRA_User_Id__c"
         },
         {
           "active": true,
@@ -103761,6 +103796,111 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ComponentType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CreatedById"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CreatedDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DeployJob"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Id"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "IsDeleted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LastModifiedById"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LastModifiedDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LastReferencedDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LastViewedDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "OwnerId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "SystemModstamp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TemplateVersion"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CloneSourceId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "CreatedById"
         },
         {
@@ -104247,6 +104387,7 @@
         "CreditMemoLine",
         "Customer",
         "DandBCompany",
+        "DataKitDeploymentLog",
         "DataUseLegalBasis",
         "DataUsePurpose",
         "DigitalWallet",

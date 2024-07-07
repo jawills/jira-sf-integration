@@ -15471,6 +15471,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "DataConctCredExpiryEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "DataConnInteractionStudio"
         },
         {

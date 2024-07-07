@@ -102,6 +102,7 @@
         "CreditMemoInvApplication",
         "CreditMemoLine",
         "Customer",
+        "DataKitDeploymentLog",
         "DataUseLegalBasis",
         "DataUsePurpose",
         "DigitalSignature",

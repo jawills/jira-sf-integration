@@ -812,6 +812,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Data Kit Deployment Log",
+          "validFor": null,
+          "value": "DataKitDeploymentLog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Data Use Legal Basis",
           "validFor": null,
           "value": "DataUseLegalBasis"

@@ -855,6 +855,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Bubble Created Date",
+          "validFor": null,
+          "value": "Contact.Bubble_Created_Date__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bubble Id",
+          "validFor": null,
+          "value": "Contact.Bubble_Id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Budgeted Cost in Campaign",
           "validFor": null,
           "value": "BudgetedCost"
@@ -3623,6 +3637,13 @@
           "label": "JIRA Project Key",
           "validFor": null,
           "value": "Account.JIRA_Project_Key__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "JIRA Project Lead",
+          "validFor": null,
+          "value": "Account.JIRA_Project_Lead__c"
         },
         {
           "active": true,

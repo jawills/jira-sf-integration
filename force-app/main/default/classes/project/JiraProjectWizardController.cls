@@ -28,15 +28,18 @@ public with sharing class JiraProjectWizardController {
     }
 
     @AuraEnabled
-    public static Boolean createProject(String key, String projectName, Id accId){
+    public static Boolean createProject(String key, String projectName, Id accId, Id userId){
         Account acc = new Account();
         acc.id = accId;
         acc.JIRA_Project_Key__c = key;
         acc.JIRA_Project_Name__c = projectName;
+        acc.JIRA_Project_Lead__c = userId;
 
+        User u = [SELECT Id, JIRA_User_Id__c FROM User WHERE Id =: userId];
+        String projectLeadId = u.JIRA_User_Id__c;
         Boolean success = false;
         try {
-            JIRAProjectHelper.createOrUpdateProject(acc);
+            JIRAProjectHelper.createOrUpdateProject(acc, projectLeadId);
             update acc;
             success = true;
         } catch (Exception e) {

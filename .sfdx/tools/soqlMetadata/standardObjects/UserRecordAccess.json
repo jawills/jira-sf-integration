@@ -1133,6 +1133,16 @@
     },
     {
       "cascadeDelete": false,
+      "childSObject": "DataKitDeploymentLog",
+      "deprecatedAndHidden": false,
+      "field": "UserRecordAccessId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
       "childSObject": "DataUseLegalBasis",
       "deprecatedAndHidden": false,
       "field": "UserRecordAccessId",

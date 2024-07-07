@@ -270,3 +270,11 @@ declare module "@salesforce/schema/Contact.Languages__c" {
   const Languages__c:string;
   export default Languages__c;
 }
+declare module "@salesforce/schema/Contact.Bubble_Id__c" {
+  const Bubble_Id__c:string;
+  export default Bubble_Id__c;
+}
+declare module "@salesforce/schema/Contact.Bubble_Created_Date__c" {
+  const Bubble_Created_Date__c:any;
+  export default Bubble_Created_Date__c;
+}

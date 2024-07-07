@@ -267,6 +267,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Bubble_Id"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ChildrenCount"
         },
         {

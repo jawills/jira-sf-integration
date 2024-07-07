@@ -1447,14 +1447,14 @@
           "defaultValue": false,
           "label": "Description",
           "validFor": null,
-          "value": "Field.ChangeRequest.Description.end"
+          "value": "Field.Incident.Description.end"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Description",
           "validFor": null,
-          "value": "Field.Incident.Description.end"
+          "value": "Field.ChangeRequest.Description.end"
         },
         {
           "active": true,
@@ -2224,14 +2224,14 @@
           "defaultValue": false,
           "label": "Title",
           "validFor": null,
-          "value": "Field.Note.Title"
+          "value": "Field.Contact.Title.begin"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Title",
           "validFor": null,
-          "value": "Field.Contact.Title.begin"
+          "value": "Field.Note.Title"
         },
         {
           "active": true,

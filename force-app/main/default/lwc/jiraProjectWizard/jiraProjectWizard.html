@@ -40,7 +40,13 @@
       label="Project Name"
       value={name}
     ></lightning-input>
-
+    <lightning-record-picker
+      object-api-name="User"
+      label="Project Lead"
+      filter={filter}
+      onchange={handleLeadChange}
+    >
+    </lightning-record-picker>
     <div slot="footer">
       <lightning-button variant="neutral" label="Cancel"></lightning-button>
       <lightning-button

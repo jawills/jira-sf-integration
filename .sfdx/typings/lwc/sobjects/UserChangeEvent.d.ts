@@ -638,3 +638,7 @@ declare module "@salesforce/schema/UserChangeEvent.IndividualId" {
   const IndividualId:any;
   export default IndividualId;
 }
+declare module "@salesforce/schema/UserChangeEvent.JIRA_User_Id__c" {
+  const JIRA_User_Id__c:string;
+  export default JIRA_User_Id__c;
+}

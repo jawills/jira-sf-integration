@@ -3032,6 +3032,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "findPastCollaborators"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "FlowOrchestrationInstanceCancel"
         },
         {
@@ -3382,6 +3389,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "getCaseInfoToSummarize"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "getCntntDocDtlForCntrDocVer"
         },
         {
@@ -3501,7 +3515,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "getForecastContext"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "getForecastGuidance"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "getForecastOpportunities"
         },
         {
           "active": true,
@@ -3551,6 +3579,13 @@
           "label": null,
           "validFor": null,
           "value": "getPointsBalance"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "getProductPricing"
         },
         {
           "active": true,
@@ -5321,6 +5356,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "researchRecord"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ResetPasswordAction"
         },
         {
@@ -5385,6 +5427,13 @@
           "label": null,
           "validFor": null,
           "value": "returnReturnOrderItems"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "reviewBuyingCommittee"
         },
         {
           "active": true,

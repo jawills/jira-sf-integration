@@ -46,4 +46,11 @@ public with sharing class JiraCallout {
         return httpHelper('project/' + projectId, 'PUT', body);
     }
 
+    /**     
+     * @param email Jira puser's email
+     */
+    public static HttpResponse getUser(String email){
+        return httpHelper('user/search?query=' + email, 'GET', null);
+    }
+
 }

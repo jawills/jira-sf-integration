@@ -298,3 +298,11 @@ declare module "@salesforce/schema/Account.JIRA_Project_Name__c" {
   const JIRA_Project_Name__c:string;
   export default JIRA_Project_Name__c;
 }
+declare module "@salesforce/schema/Account.JIRA_Project_Lead__r" {
+  const JIRA_Project_Lead__r:any;
+  export default JIRA_Project_Lead__r;
+}
+declare module "@salesforce/schema/Account.JIRA_Project_Lead__c" {
+  const JIRA_Project_Lead__c:any;
+  export default JIRA_Project_Lead__c;
+}

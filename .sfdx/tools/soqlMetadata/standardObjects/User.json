@@ -8348,6 +8348,23 @@
       "relationshipName": "Individual",
       "sortable": true,
       "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "JIRA User Id",
+      "name": "JIRA_User_Id__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
     }
   ],
   "label": "User",
@@ -8540,6 +8557,16 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "Account",
+      "deprecatedAndHidden": false,
+      "field": "JIRA_Project_Lead__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Accounts__r",
       "restrictedDelete": false
     },
     {
@@ -15027,6 +15054,56 @@
       "childSObject": "DataAssessmentValueMetric",
       "deprecatedAndHidden": false,
       "field": "LastModifiedById",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "DataKitDeploymentLog",
+      "deprecatedAndHidden": false,
+      "field": "CreatedById",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "DataKitDeploymentLog",
+      "deprecatedAndHidden": false,
+      "field": "LastModifiedById",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "DataKitDeploymentLog",
+      "deprecatedAndHidden": false,
+      "field": "OwnerId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "DataKitDeploymentLogShare",
+      "deprecatedAndHidden": false,
+      "field": "LastModifiedById",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "DataKitDeploymentLogShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": null,

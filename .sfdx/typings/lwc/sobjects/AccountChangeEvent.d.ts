@@ -278,3 +278,15 @@ declare module "@salesforce/schema/AccountChangeEvent.Jira_Error__c" {
   const Jira_Error__c:string;
   export default Jira_Error__c;
 }
+declare module "@salesforce/schema/AccountChangeEvent.JIRA_Project_URL__c" {
+  const JIRA_Project_URL__c:string;
+  export default JIRA_Project_URL__c;
+}
+declare module "@salesforce/schema/AccountChangeEvent.JIRA_Project_Name__c" {
+  const JIRA_Project_Name__c:string;
+  export default JIRA_Project_Name__c;
+}
+declare module "@salesforce/schema/AccountChangeEvent.JIRA_Project_Lead__c" {
+  const JIRA_Project_Lead__c:any;
+  export default JIRA_Project_Lead__c;
+}
