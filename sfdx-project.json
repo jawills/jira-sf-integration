@@ -4,8 +4,8 @@
       "path": "force-app",
       "default": true,
       "package": "Jira Integration",
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
+      "versionName": "ver 0.2",
+      "versionNumber": "0.2.0.NEXT",
       "versionDescription": ""
     }
   ],
@@ -17,6 +17,9 @@
     "Jira Integration": "0HoQl00000000WHKAY",
     "Jira Integration@0.1.0-1": "04tQl0000008hEHIAY",
     "Jira Integration@0.1.0-2": "04tQl0000008hFtIAI",
-    "Jira Integration@0.1.0-3": "04tQl0000008hivIAA"
+    "Jira Integration@0.1.0-3": "04tQl0000008hivIAA",
+    "Jira Integration@0.1.0-4": "04tQl0000008hkXIAQ",
+    "Jira Integration@0.1.0-5": "04tQl0000008hm9IAA",
+    "Jira Integration@0.2.0-1": "04tQl0000008hnlIAA"
   }
 }

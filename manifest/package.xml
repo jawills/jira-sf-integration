@@ -44,7 +44,7 @@
         <members>Case.JIRA_Version_Id__c</members>
         <members>Case.Time_Spent__c</members>
         <members>Case.Opportunity__c</members>
-
+        <members>Case.Hours_Worked__c</members>
         <members>User.JIRA_User_Id__c</members>
         <name>CustomField</name>
     </types>

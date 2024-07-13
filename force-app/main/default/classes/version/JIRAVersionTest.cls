@@ -50,5 +50,4 @@ public class JIRAVersionTest {
         Opportunity oppAfter = [SELECT Id, JIRA_Version_Id__c FROM Opportunity WHERE Id =: opp.Id];
         System.assert(String.isNotBlank(oppAfter.JIRA_Version_Id__c), 'Version Id Not Set');
     }
-
 }
