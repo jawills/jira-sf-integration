@@ -37,42 +37,42 @@ The following can be added to page layouts for the given objects
 
 #### User
 
-| Label | Type |
-| | |
+| Label        | Type         |
+| ------------ | ------------ |
 | JIRA User Id | Custom Field |
-| Get JIRA Id | Custom Link |
+| Get JIRA Id  | Custom Link  |
 
 #### Account
 
-| Label | Type |
-| | |
-| Jira Error | Custom Field |
-| Jira Project Id | Custom Field |
-| Jira Project Key | Custom Field |
-| Jira Project Lead | Custom Field |
-| Jira Project Name | Custom Field |
+| Label                | Type                        |
+| -------------------- | --------------------------- |
+| Jira Error           | Custom Field                |
+| Jira Project Id      | Custom Field                |
+| Jira Project Key     | Custom Field                |
+| Jira Project Lead    | Custom Field                |
+| Jira Project Name    | Custom Field                |
 | Push Project to JIRA | Custom Action (VisualForce) |
-| Create Project | Custom Action (LWC) |
+| Create Project       | Custom Action (LWC)         |
 
 #### Case
 
-| Label | Type |
-| | |
+| Label           | Type         |
+| --------------- | ------------ |
 | Jira Version Id | Custom Field |
 | Jira Project Id | Custom Field |
-| Jira Issue Id | Custom Field |
-| Jira Key | Custom Field |
-| Time Spent | Custom Field |
-| Hours Spent | Custom Field |
+| Jira Issue Id   | Custom Field |
+| Jira Key        | Custom Field |
+| Time Spent      | Custom Field |
+| Hours Spent     | Custom Field |
 
 #### Opportunity
 
-| Label | Type |
-| | |
+| Label                 | Type         |
+| --------------------- | ------------ |
 | JIRA Fix Version Name | Custom Field |
-| Jira Project Id | Custom Field |
-| Jira Version Id | Custom Field |
-| Jira Key | Custom Field |
+| Jira Project Id       | Custom Field |
+| Jira Version Id       | Custom Field |
+| Jira Key              | Custom Field |
 
 ### Salesforce Tutorial
 
