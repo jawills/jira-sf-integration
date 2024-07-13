@@ -2,11 +2,21 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "Jira Integration",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
     }
   ],
   "name": "sf-org-template",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "60.0"
+  "sourceApiVersion": "60.0",
+  "packageAliases": {
+    "Jira Integration": "0HoQl00000000WHKAY",
+    "Jira Integration@0.1.0-1": "04tQl0000008hEHIAY",
+    "Jira Integration@0.1.0-2": "04tQl0000008hFtIAI",
+    "Jira Integration@0.1.0-3": "04tQl0000008hivIAA"
+  }
 }

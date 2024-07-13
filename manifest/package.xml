@@ -18,8 +18,50 @@
     </types>
     <types>
         <members>*</members>
+        <name>ExternalCredential</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>NamedCredential</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>ApexTrigger</name>
     </types>
+    <types>
+        <members>Account.Jira_Error__c</members>
+        <members>Account.JIRA_Project_Id__c</members>
+        <members>Account.JIRA_Project_Key__c</members>
+        <members>Account.JIRA_Project_Lead__c</members>
+        <members>Account.JIRA_Project_Name__c</members>
+        <members>Account.JIRA_Project_Name__c</members>
+        <members>Opportunity.JIRA_Fix_Version_Name__c</members>
+        <members>Opportunity.JIRA_Project_Id__c</members>
+        <members>Opportunity.JIRA_Version_Id__c</members>
+        <members>Case.JIRA_Issue_Id__c</members>
+        <members>Case.JIRA_Key__c</members>
+        <members>Case.JIRA_Project_Id__c</members>
+        <members>Case.JIRA_Version_Id__c</members>
+        <members>Case.Time_Spent__c</members>
+        <members>Case.Opportunity__c</members>
+
+        <members>User.JIRA_User_Id__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Jira_Integration</members>
+    <name>PermissionSet</name>
+  </types>
+    <types>
+    <members>Account.Create_Project</members>
+    <members>Account.Push_Project_to_JIRA</members>
+    <members>Opportunity.Create_JIRA_Version</members>
+    <name>QuickAction</name>
+  </types>
+  <types>
+    <members>User.Get_JIRA_Id</members>
+    <name>WebLink</name>
+  </types>
     <types>
         <members>*</members>
         <name>AuraDefinitionBundle</name>
@@ -28,5 +70,5 @@
         <members>*</members>
         <name>LightningComponentBundle</name>
     </types>
-    <version>59.0</version>
+    <version>61.0</version>
 </Package>

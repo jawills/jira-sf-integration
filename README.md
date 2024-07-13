@@ -2,6 +2,23 @@
 
 ## Features
 
+- Create Projects from Accounts
+- Create Versions from Opportunities
+- Sync JIRA Issues with Cases
+
+## Install
+
+You can install with the SF CLI:
+
+```bash
+sf package install --package 04tQl0000008hivIAA --target-org your-org
+```
+
+Or use the install links:
+
+- [Production](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008hFtIAI)
+- [Sandbox](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008hFtIAI)
+
 ## Todo
 
 - [x] Authenticate with Jira and Salesforce
@@ -15,7 +32,7 @@
 - [x] Sync issues from jira to SF
 - [x] Sync work logs from Jira -> SF
 - [x] Fix JSON Parse error
-- [ ] Add issue one time sync
-- [ ] Add issue nightly sync
-- [ ] Distribute via unlocked packages
+- [x] Add issue one time sync
+- [x] Add issue nightly sync
+- [x] Distribute via unlocked packages
 - [ ] Write Documentation on how to use project

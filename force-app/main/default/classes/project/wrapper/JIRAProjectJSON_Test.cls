@@ -4,21 +4,20 @@
 
 @IsTest
 public class JIRAProjectJSON_Test {
-	
+	public static String json = '{'+
+	'   \"expand\":\"insight\",'+
+	'   \"self\":\"https://1sync.atlassian.net/rest/api/3/project/10000\",'+
+	'   \"id\":\"10000\",'+
+	'   \"key\":\"SYNC\",'+
+	'   \"description\":\"\",'+
+	'   \"assigneeType\":\"PROJECT_LEAD\",'+
+	'   \"name\":\"1Sync\",'+
+	'   \"projectTypeKey\":\"software\",'+
+	'   \"simplified\":true,'+
+	'   \"style\":\"next-gen\",'+
+	'   \"isPrivate\":false'+
+	'}';
 	static testMethod void testParse() {
-		String json = '{'+
-		'   \"expand\":\"description,lead,issueTypes,url,projectKeys,permissions,insight\",'+
-		'   \"self\":\"https://1sync.atlassian.net/rest/api/3/project/10000\",'+
-		'   \"id\":\"10000\",'+
-		'   \"key\":\"SYNC\",'+
-		'   \"description\":\"\",'+
-		'   \"assigneeType\":\"PROJECT_LEAD\",'+
-		'   \"name\":\"1Sync\",'+
-		'   \"projectTypeKey\":\"software\",'+
-		'   \"simplified\":true,'+
-		'   \"style\":\"next-gen\",'+
-		'   \"isPrivate\":false'+
-		'}';
 		JIRAProjectJSON obj = JIRAProjectJSON.parse(json);
 		System.assert(obj != null);
 	}
