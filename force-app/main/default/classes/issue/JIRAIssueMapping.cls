@@ -14,7 +14,7 @@ public with sharing class JIRAIssueMapping {
             Case c = new Case();
             c.JIRA_Issue_Id__c = issue.id;
             c.Subject = issue.fields.summary;
-            c.Description = issue.fields.description;
+            // c.Description = issue.fields.description; //@TODO description is an object and needs to be parsed
             c.JIRA_Project_Id__c = issue.fields.project.id;
             projectIds.add(issue.fields.project.id);
             c.JIRA_Key__c = issue.key;

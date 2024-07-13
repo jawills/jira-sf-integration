@@ -14,8 +14,8 @@
 - [x] Create a fix version from opportunity
 - [x] Sync issues from jira to SF
 - [x] Sync work logs from Jira -> SF
+- [x] Fix JSON Parse error
 - [ ] Add issue one time sync
-- [ ] Fix JSON Parse error
 - [ ] Add issue nightly sync
 - [ ] Distribute via unlocked packages
 - [ ] Write Documentation on how to use project

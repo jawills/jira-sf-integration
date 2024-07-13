@@ -38,12 +38,6 @@ public class JIRAIssueQueryJSON {
 		public Fields fields;
 	}
 
-	public class Aggregateprogress {
-		public Integer progress;
-		public Integer total;
-		public Integer percent;
-	}
-
 	public class Watches {
 		public String self;
 		public Integer watchCount;
@@ -77,7 +71,7 @@ public class JIRAIssueQueryJSON {
 	}
 
 	public class Fields {
-		public String statuscategorychangedate;
+		// public String statuscategorychangedate;
 		public Issuetype issuetype;
 		public Integer timespent;
 		public Project project;
@@ -86,11 +80,10 @@ public class JIRAIssueQueryJSON {
 		public Integer workratio;
 		public Watches watches;
 		public String lastViewed;
-        public String description;
+        // public String description; //@TODO field is an object and not a string
 		public String created;
 		public Priority priority;
 		public List<Labels> labels;
-		public String customfield_10019;
 		public List<Labels> versions;
 		public List<Labels> issuelinks;
 		public Assignee assignee;
@@ -101,10 +94,6 @@ public class JIRAIssueQueryJSON {
 		public Assignee creator;
 		public List<Labels> subtasks;
 		public Assignee reporter;
-		public Aggregateprogress aggregateprogress;
-		public String customfield_10000;
-		public Aggregateprogress progress;
-		public Votes votes;
 	}
 
 	public class NonEditableReason {
