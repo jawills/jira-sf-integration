@@ -1,18 +1,27 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
+      "path": "jira-integration/core",
       "default": true,
-      "package": "Jira Integration",
-      "versionName": "ver 0.2",
-      "versionNumber": "0.2.0.NEXT",
+      "package": "Jira Integration - Core",
+      "versionName": "Case Controller",
+      "versionNumber": "0.4.0.NEXT",
+      "releaseNotesUrl": "https://github.com/jawills/jira-sf-integration/releases",
+      "versionDescription": "Added individual record sync for issues on the case. And fixed a bug where opportunities and accounts weren't linking to the case."
+    },
+    {
+      "path": "jira-integration/auth",
+      "package": "Jira Integration - Auth",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
       "versionDescription": ""
     }
   ],
   "name": "sf-org-template",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "60.0",
+  "sourceApiVersion": "61.0",
   "packageAliases": {
     "Jira Integration": "0HoQl00000000WHKAY",
     "Jira Integration@0.1.0-1": "04tQl0000008hEHIAY",
@@ -20,6 +29,8 @@
     "Jira Integration@0.1.0-3": "04tQl0000008hivIAA",
     "Jira Integration@0.1.0-4": "04tQl0000008hkXIAQ",
     "Jira Integration@0.1.0-5": "04tQl0000008hm9IAA",
-    "Jira Integration@0.2.0-1": "04tQl0000008hnlIAA"
+    "Jira Integration@0.2.0-1": "04tQl0000008hnlIAA",
+    "Jira Integration@0.3.0-1": "04tQl0000008hpNIAQ",
+    "Jira Integration - Auth": "0HoQl00000000XtKAI"
   }
 }

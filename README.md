@@ -11,13 +11,13 @@
 You can install with the SF CLI:
 
 ```bash
-sf package install --package 04tQl0000008hnlIAA --target-org your-org
+sf package install --package 04tQl0000008hpNIAQ --target-org your-org
 ```
 
 Or use the install links:
 
-- [Production](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008hnlIAA)
-- [Sandbox](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008hnlIAA)
+- [Production](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008hpNIAQ)
+- [Sandbox](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008hpNIAQ)
 
 ## Setup
 

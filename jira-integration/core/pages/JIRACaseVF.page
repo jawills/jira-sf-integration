@@ -1,0 +1,2 @@
+<apex:page standardcontroller="Case" extensions="JIRAIssueController" action="{!sync}">
+</apex:page>
