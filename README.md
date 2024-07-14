@@ -11,19 +11,32 @@
 You can install with the SF CLI:
 
 ```bash
-sf package install --package 04tQl0000008hpNIAQ --target-org your-org
+sf package install --package 04tQl0000008iGnIAI --target-org your-org
 ```
 
 Or use the install links:
 
-- [Production](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008hpNIAQ)
-- [Sandbox](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008hpNIAQ)
+- [Production](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008iGnIAI)
+- [Sandbox](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008iGnIAI)
 
 ## Setup
 
 ### Jira Authentication
 
-The integration uses Basic Authentication in Jira to create the authentication. We can get the Jira credentials by:
+The integration uses Basic Authentication in Jira to create the authentication. We also need to store this information in a named credential.
+
+We can get the Salesforce Named Credential by installing the following package:
+
+```bash
+sf package install --package 04tQl0000008iIPIAY --target-org your-org
+```
+
+- [Production](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008iIPIAY)
+- [Sandbox](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tQl0000008iIPIAY)
+
+**WARNING** - Installing this package will override any existing Jira Named Credentials in your org.
+
+We can get the Jira credentials by:
 
 1. Get the [API Token](https://id.atlassian.com/manage/api-tokens)
 2. Inside Salesforce, go to Setup -> Named Credential. Update the `your-domain` inside the Jira Named Credential, update the URL to your JIRA Domain

@@ -16,7 +16,7 @@ public without sharing class JIRAIssueMapping {
             c.Subject = issue.fields.summary;
             // c.Description = issue.fields.description; //@TODO description is an object and needs to be parsed
             c.JIRA_Project_Id__c = issue.fields.project.id;
-            projectIds.add(issue.fields.project.id);
+            projectIds.add(c.JIRA_Project_Id__c);
             c.JIRA_Key__c = issue.key;
             c.Status = issue.fields.status.name;
             c.Time_Spent__c = issue.fields.aggregatetimespent;

@@ -4,16 +4,17 @@
       "path": "jira-integration/core",
       "default": true,
       "package": "Jira Integration - Core",
-      "versionName": "Case Controller",
-      "versionNumber": "0.4.0.NEXT",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
       "releaseNotesUrl": "https://github.com/jawills/jira-sf-integration/releases",
-      "versionDescription": "Added individual record sync for issues on the case. And fixed a bug where opportunities and accounts weren't linking to the case."
+      "versionDescription": ""
     },
     {
       "path": "jira-integration/auth",
       "package": "Jira Integration - Auth",
       "versionName": "ver 0.1",
       "versionNumber": "0.1.0.NEXT",
+      "releaseNotesUrl": "https://github.com/jawills/jira-sf-integration/releases",
       "default": false,
       "versionDescription": ""
     }
@@ -31,6 +32,10 @@
     "Jira Integration@0.1.0-5": "04tQl0000008hm9IAA",
     "Jira Integration@0.2.0-1": "04tQl0000008hnlIAA",
     "Jira Integration@0.3.0-1": "04tQl0000008hpNIAQ",
-    "Jira Integration - Auth": "0HoQl00000000XtKAI"
+    "Jira Integration - Auth": "0HoQl00000000XtKAI",
+    "Jira Integration - Core": "0HoQl00000000ZVKAY",
+    "Jira Integration - Core@0.1.0-1": "04tQl0000008hsbIAA",
+    "Jira Integration - Core@0.1.0-2": "04tQl0000008iGnIAI",
+    "Jira Integration - Auth@0.1.0-1": "04tQl0000008iIPIAY"
   }
 }

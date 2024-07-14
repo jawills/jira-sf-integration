@@ -31,7 +31,7 @@ public class JIRAIssueQueryJSON_Test {
 	'                \"customfield_10030\": null,'+
 	'                \"project\": {'+
 	'                    \"self\": \"https://1sync.atlassian.net/rest/api/3/project/10024\",'+
-	'                    \"id\": \"10024\",'+
+	'                    \"id\": \"1234\",'+
 	'                    \"key\": \"ZED\",'+
 	'                    \"name\": \"ZED Project\",'+
 	'                    \"projectTypeKey\": \"software\",'+
@@ -48,7 +48,7 @@ public class JIRAIssueQueryJSON_Test {
 	'                \"fixVersions\": ['+
 	'                    {'+
 	'                        \"self\": \"https://1sync.atlassian.net/rest/api/3/version/10022\",'+
-	'                        \"id\": \"10022\",'+
+	'                        \"id\": \"5678\",'+
 	'                        \"description\": \"TEST Opp\",'+
 	'                        \"name\": \"hello\",'+
 	'                        \"archived\": false,'+
