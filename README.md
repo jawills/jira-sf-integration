@@ -6,6 +6,11 @@
 - Create Versions from Opportunities
 - Sync JIRA Issues with Cases
 
+## Tutorial
+
+Learn how to build this project by following this tutorial:
+https://youtu.be/0mF2PZuyWjw
+
 ## Install
 
 You can install with the SF CLI:

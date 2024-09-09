@@ -1,7 +1,7 @@
 public with sharing class JiraCallout {
 
     /**
-     * @param endpoint '/projects'
+     * @param endpoint 'projects'
      * @param method GET
      * @param body {"key" : "value"}
      */
