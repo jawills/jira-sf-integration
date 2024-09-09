@@ -1,5 +1,0 @@
-global enum OauthTokenType {
-ACCESS_TOKEN,
-DELETE_TOKEN,
-REFRESH_TOKEN
-}

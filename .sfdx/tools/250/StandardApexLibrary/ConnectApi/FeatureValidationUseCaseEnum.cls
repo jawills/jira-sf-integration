@@ -1,4 +1,0 @@
-global enum FeatureValidationUseCaseEnum {
-HEALTHCLOUDIAM,
-HEALTHCLOUDIAMACCESSCHECKS
-}

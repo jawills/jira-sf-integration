@@ -1,4 +1,0 @@
-global enum BatchCriteriaFieldsForInvoiceRunEnum {
-CURRENCY_ISO_CODE,
-INVOICERUNMATCHINGVALUE
-}

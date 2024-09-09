@@ -1,5 +1,0 @@
-global enum PersonalizationSourceEnum {
-BLOCKBUILDER,
-EXPERIENCEBUILDER,
-PERSONALIZATIONAPP
-}
